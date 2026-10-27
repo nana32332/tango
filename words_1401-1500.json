@@ -606,20 +606,7 @@
       "type": "赤",
       "english": "thread",
       "japanese": "糸",
-      "related": [
-        {
-          "type": "◇",
-          "english": "needle",
-          "part_of_speech": "名詞",
-          "japanese": "針"
-        },
-        {
-          "type": "◇",
-          "english": "string",
-          "part_of_speech": "名詞",
-          "japanese": "ひも、糸"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1459,
