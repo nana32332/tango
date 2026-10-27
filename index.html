@@ -683,7 +683,7 @@
     session = null;
     $('#rangeLabel').textContent = state.set.replace('-', '–');
     app.innerHTML = '<div class="loader">読み込み中…</div>';
-    fetch(dataUrl(state.set))
+    fetch(dataUrl(state.set), { cache: 'no-cache' })
       .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(init)
       .catch(fallbackPicker);
