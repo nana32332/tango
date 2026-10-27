@@ -1,0 +1,1244 @@
+{
+  "source": "MINIMAL PHRASES (2) 名詞・(3) 形容詞・(4) 動詞 p.224-238",
+  "range": [
+    1301,
+    1400
+  ],
+  "entries": [
+    {
+      "number": 1301,
+      "type": "赤",
+      "english": "allies",
+      "japanese": "同盟国；協力者",
+      "related": [
+        {
+          "type": "◇",
+          "english": "alliance",
+          "part_of_speech": "名詞",
+          "japanese": "同盟、協力"
+        }
+      ]
+    },
+    {
+      "number": 1302,
+      "type": "赤",
+      "english": "draft",
+      "japanese": "下書き；草稿",
+      "related": []
+    },
+    {
+      "number": 1303,
+      "type": "赤",
+      "english": "spectacle",
+      "japanese": "光景；情景",
+      "related": [
+        {
+          "type": "◇",
+          "english": "spectacular",
+          "part_of_speech": "形容詞",
+          "japanese": "見ごたえのある"
+        }
+      ]
+    },
+    {
+      "number": 1304,
+      "type": "赤",
+      "english": "premise",
+      "japanese": "前提",
+      "related": []
+    },
+    {
+      "number": 1305,
+      "type": "赤",
+      "english": "asset",
+      "japanese": "財産；資産",
+      "related": []
+    },
+    {
+      "number": 1306,
+      "type": "赤",
+      "english": "lag",
+      "japanese": "遅れ；遅延",
+      "related": []
+    },
+    {
+      "number": 1307,
+      "type": "赤",
+      "english": "therapy",
+      "japanese": "療法；治療法",
+      "related": []
+    },
+    {
+      "number": 1308,
+      "type": "赤",
+      "english": "reception",
+      "japanese": "もてなし；歓迎(会)",
+      "related": [
+        {
+          "type": "◇",
+          "english": "receive",
+          "part_of_speech": "動詞",
+          "japanese": "～を受け取る"
+        },
+        {
+          "type": "◇",
+          "english": "receipt",
+          "part_of_speech": "名詞",
+          "japanese": "領収書、受領"
+        }
+      ]
+    },
+    {
+      "number": 1309,
+      "type": "赤",
+      "english": "compound",
+      "japanese": "化合物；複合体",
+      "related": []
+    },
+    {
+      "number": 1310,
+      "type": "赤",
+      "english": "blessing",
+      "japanese": "ありがたいもの；恵み",
+      "related": [
+        {
+          "type": "◇",
+          "english": "blessed",
+          "part_of_speech": "形容詞",
+          "japanese": "恵まれた、祝福された"
+        }
+      ]
+    },
+    {
+      "number": 1311,
+      "type": "赤",
+      "english": "sensation",
+      "japanese": "感覚；感じ",
+      "related": [
+        {
+          "type": "◇",
+          "english": "sensational",
+          "part_of_speech": "形容詞",
+          "japanese": "センセーショナルな、扇情的な"
+        }
+      ]
+    },
+    {
+      "number": 1312,
+      "type": "赤",
+      "english": "recession",
+      "japanese": "不景気；不況",
+      "related": []
+    },
+    {
+      "number": 1313,
+      "type": "赤",
+      "english": "Pole",
+      "japanese": "棒；さお；極",
+      "related": [
+        {
+          "type": "◇",
+          "english": "polar",
+          "part_of_speech": "形容詞",
+          "japanese": "極の、極地の"
+        }
+      ]
+    },
+    {
+      "number": 1314,
+      "type": "赤",
+      "english": "outlook",
+      "japanese": "考え方；態度；見通し；見込み",
+      "related": []
+    },
+    {
+      "number": 1315,
+      "type": "赤",
+      "english": "endeavor",
+      "japanese": "活動；企て；努力",
+      "related": [
+        {
+          "type": "=",
+          "english": "try",
+          "part_of_speech": "動詞",
+          "japanese": "努力する"
+        }
+      ]
+    },
+    {
+      "number": 1316,
+      "type": "赤",
+      "english": "mercy",
+      "japanese": "慈悲；情け；幸運",
+      "related": [
+        {
+          "type": "◇",
+          "english": "merciful",
+          "part_of_speech": "形容詞",
+          "japanese": "慈悲[情け]深い"
+        }
+      ]
+    },
+    {
+      "number": 1317,
+      "type": "赤",
+      "english": "counterpart",
+      "japanese": "Aに相当するもの",
+      "related": []
+    },
+    {
+      "number": 1318,
+      "type": "赤",
+      "english": "session",
+      "japanese": "期間；会期；討論；会議",
+      "related": []
+    },
+    {
+      "number": 1319,
+      "type": "赤",
+      "english": "spectrum",
+      "japanese": "変動範囲；領域",
+      "related": []
+    },
+    {
+      "number": 1320,
+      "type": "赤",
+      "english": "junk",
+      "japanese": "くず；がらくた",
+      "related": []
+    },
+    {
+      "number": 1321,
+      "type": "赤",
+      "english": "worship",
+      "japanese": "崇拝；礼拝",
+      "related": []
+    },
+    {
+      "number": 1322,
+      "type": "赤",
+      "english": "apt",
+      "japanese": "Vしがちである；Vする傾向がある",
+      "related": [
+        {
+          "type": "◇",
+          "english": "aptitude",
+          "part_of_speech": "名詞",
+          "japanese": "素質、才能"
+        },
+        {
+          "type": "=",
+          "english": "likely",
+          "part_of_speech": "形容詞",
+          "japanese": "Vしがちである"
+        },
+        {
+          "type": "=",
+          "english": "liable",
+          "part_of_speech": "形容詞",
+          "japanese": "Vしがちである"
+        }
+      ]
+    },
+    {
+      "number": 1323,
+      "type": "赤",
+      "english": "humble",
+      "japanese": "謙虚な；卑下した；粗末な；卑しい",
+      "related": [
+        {
+          "type": "◇",
+          "english": "humility",
+          "part_of_speech": "名詞",
+          "japanese": "謙虚さ"
+        },
+        {
+          "type": "=",
+          "english": "modest",
+          "part_of_speech": "形容詞",
+          "japanese": "謙虚な"
+        }
+      ]
+    },
+    {
+      "number": 1324,
+      "type": "赤",
+      "english": "entitled",
+      "japanese": "Aを得る[する]権利がある；～と題された",
+      "related": []
+    },
+    {
+      "number": 1325,
+      "type": "赤",
+      "english": "valid",
+      "japanese": "妥当な；正当な；有効な；効力がある",
+      "related": [
+        {
+          "type": "◇",
+          "english": "validity",
+          "part_of_speech": "名詞",
+          "japanese": "正当性、妥当性"
+        }
+      ]
+    },
+    {
+      "number": 1326,
+      "type": "赤",
+      "english": "faint",
+      "japanese": "かすかな；気絶する",
+      "related": []
+    },
+    {
+      "number": 1327,
+      "type": "赤",
+      "english": "stiff",
+      "japanese": "堅い；凝った；堅苦しい；厳しい",
+      "related": []
+    },
+    {
+      "number": 1328,
+      "type": "赤",
+      "english": "obscure",
+      "japanese": "わかりにくい；はっきりしない；無名の",
+      "related": [
+        {
+          "type": "=",
+          "english": "hide",
+          "part_of_speech": "動詞",
+          "japanese": "隠す"
+        }
+      ]
+    },
+    {
+      "number": 1329,
+      "type": "赤",
+      "english": "fierce",
+      "japanese": "激しい；どう猛な",
+      "related": []
+    },
+    {
+      "number": 1330,
+      "type": "赤",
+      "english": "acute",
+      "japanese": "深刻な；鋭い；急性の",
+      "related": [
+        {
+          "type": "=",
+          "english": "serious",
+          "part_of_speech": "形容詞",
+          "japanese": "深刻な"
+        },
+        {
+          "type": "=",
+          "english": "sharp",
+          "part_of_speech": "形容詞",
+          "japanese": "鋭い"
+        }
+      ]
+    },
+    {
+      "number": 1331,
+      "type": "赤",
+      "english": "idle",
+      "japanese": "何もしていない；なまけものの；無意味な",
+      "related": [
+        {
+          "type": "=",
+          "english": "lazy",
+          "part_of_speech": "形容詞",
+          "japanese": "なまけものの"
+        },
+        {
+          "type": "=",
+          "english": "meaningless",
+          "part_of_speech": "形容詞",
+          "japanese": "無意味な"
+        }
+      ]
+    },
+    {
+      "number": 1332,
+      "type": "赤",
+      "english": "crude",
+      "japanese": "粗末な；荒けずりの；粗野な；下品な",
+      "related": [
+        {
+          "type": "=",
+          "english": "rough",
+          "part_of_speech": "形容詞",
+          "japanese": "荒けずりの"
+        },
+        {
+          "type": "=",
+          "english": "rude",
+          "part_of_speech": "形容詞",
+          "japanese": "下品な"
+        }
+      ]
+    },
+    {
+      "number": 1333,
+      "type": "赤",
+      "english": "jealous",
+      "japanese": "嫉妬深い；うらやましい",
+      "related": [
+        {
+          "type": "◇",
+          "english": "jealousy",
+          "part_of_speech": "名詞",
+          "japanese": "嫉妬、ねたみ"
+        }
+      ]
+    },
+    {
+      "number": 1334,
+      "type": "赤",
+      "english": "pregnant",
+      "japanese": "妊娠している",
+      "related": [
+        {
+          "type": "◇",
+          "english": "pregnancy",
+          "part_of_speech": "名詞",
+          "japanese": "妊娠"
+        }
+      ]
+    },
+    {
+      "number": 1335,
+      "type": "赤",
+      "english": "liable",
+      "japanese": "Vしがちである；可能性が高い；かかりやすい；責任がある",
+      "related": [
+        {
+          "type": "◇",
+          "english": "liability",
+          "part_of_speech": "名詞",
+          "japanese": "(法的)責任"
+        },
+        {
+          "type": "=",
+          "english": "likely",
+          "part_of_speech": "形容詞",
+          "japanese": "Vしがちである"
+        },
+        {
+          "type": "=",
+          "english": "apt",
+          "part_of_speech": "形容詞",
+          "japanese": "Vしがちである"
+        }
+      ]
+    },
+    {
+      "number": 1336,
+      "type": "赤",
+      "english": "stubborn",
+      "japanese": "頑固な；断固たる；変えにくい",
+      "related": [
+        {
+          "type": "◇",
+          "english": "stubbornly",
+          "part_of_speech": "副詞",
+          "japanese": "頑固に；執拗に"
+        }
+      ]
+    },
+    {
+      "number": 1337,
+      "type": "赤",
+      "english": "decent",
+      "japanese": "まともな；ちゃんとした；かなり良い",
+      "related": [
+        {
+          "type": "=",
+          "english": "respectable",
+          "part_of_speech": "形容詞",
+          "japanese": "まともな、ちゃんとした"
+        }
+      ]
+    },
+    {
+      "number": 1338,
+      "type": "赤",
+      "english": "marvelous",
+      "japanese": "驚くべき；不思議な；すばらしい",
+      "related": [
+        {
+          "type": "◇",
+          "english": "marvel",
+          "part_of_speech": "動詞・名詞",
+          "japanese": "驚く；驚くべきもの"
+        },
+        {
+          "type": "=",
+          "english": "wonder",
+          "part_of_speech": "動詞",
+          "japanese": "驚く"
+        }
+      ]
+    },
+    {
+      "number": 1339,
+      "type": "赤",
+      "english": "misleading",
+      "japanese": "誤解を招く；まぎらわしい",
+      "related": [
+        {
+          "type": "◇",
+          "english": "mislead",
+          "part_of_speech": "動詞",
+          "japanese": "～を誤った方向に導く、だます"
+        }
+      ]
+    },
+    {
+      "number": 1340,
+      "type": "赤",
+      "english": "synthetic",
+      "japanese": "合成の；人工的な",
+      "related": [
+        {
+          "type": "◇",
+          "english": "synthesize",
+          "part_of_speech": "動詞",
+          "japanese": "～を合成する、統合する"
+        },
+        {
+          "type": "◇",
+          "english": "synthesis",
+          "part_of_speech": "名詞",
+          "japanese": "合成、統合"
+        }
+      ]
+    },
+    {
+      "number": 1341,
+      "type": "赤",
+      "english": "classical",
+      "japanese": "クラシックの；ギリシャ・ローマの；古典的な",
+      "related": [
+        {
+          "type": "◇",
+          "english": "classic",
+          "part_of_speech": "形容詞・名詞",
+          "japanese": "古典の、名作の、典型的な；古典"
+        }
+      ]
+    },
+    {
+      "number": 1342,
+      "type": "赤",
+      "english": "Muslim",
+      "japanese": "イスラム教の；イスラム教徒",
+      "related": [
+        {
+          "type": "◇",
+          "english": "Islamic",
+          "part_of_speech": "形容詞",
+          "japanese": "イスラム教の"
+        }
+      ]
+    },
+    {
+      "number": 1343,
+      "type": "赤",
+      "english": "anticipate",
+      "japanese": "予想する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "anticipation",
+          "part_of_speech": "名詞",
+          "japanese": "期待；予想"
+        },
+        {
+          "type": "=",
+          "english": "expect",
+          "part_of_speech": "動詞",
+          "japanese": "予想する"
+        }
+      ]
+    },
+    {
+      "number": 1344,
+      "type": "赤",
+      "english": "rub",
+      "japanese": "こする",
+      "related": [
+        {
+          "type": "◇",
+          "english": "rubber",
+          "part_of_speech": "名詞",
+          "japanese": "ゴム"
+        }
+      ]
+    },
+    {
+      "number": 1345,
+      "type": "赤",
+      "english": "dispose",
+      "japanese": "処分する；捨てる",
+      "related": [
+        {
+          "type": "◇",
+          "english": "disposal",
+          "part_of_speech": "名詞",
+          "japanese": "処分、廃棄"
+        },
+        {
+          "type": "◇",
+          "english": "disposable",
+          "part_of_speech": "形容詞",
+          "japanese": "使い捨ての"
+        },
+        {
+          "type": "=",
+          "english": "get rid of",
+          "part_of_speech": "動詞",
+          "japanese": "処分する；捨てる"
+        }
+      ]
+    },
+    {
+      "number": 1346,
+      "type": "赤",
+      "english": "refrain",
+      "japanese": "控える；つつしむ",
+      "related": []
+    },
+    {
+      "number": 1347,
+      "type": "赤",
+      "english": "accumulate",
+      "japanese": "蓄積する；たまる",
+      "related": [
+        {
+          "type": "◇",
+          "english": "accumulation",
+          "part_of_speech": "名詞",
+          "japanese": "蓄積"
+        }
+      ]
+    },
+    {
+      "number": 1348,
+      "type": "赤",
+      "english": "boost",
+      "japanese": "活気づける；～を高める",
+      "related": []
+    },
+    {
+      "number": 1349,
+      "type": "赤",
+      "english": "drag",
+      "japanese": "引きずる",
+      "related": []
+    },
+    {
+      "number": 1350,
+      "type": "赤",
+      "english": "revise",
+      "japanese": "修正する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "revision",
+          "part_of_speech": "名詞",
+          "japanese": "修正；改訂"
+        }
+      ]
+    },
+    {
+      "number": 1351,
+      "type": "赤",
+      "english": "scratch",
+      "japanese": "かく",
+      "related": []
+    },
+    {
+      "number": 1352,
+      "type": "赤",
+      "english": "roar",
+      "japanese": "ほえる；どよめく",
+      "related": []
+    },
+    {
+      "number": 1353,
+      "type": "赤",
+      "english": "quote",
+      "japanese": "引用する",
+      "related": []
+    },
+    {
+      "number": 1354,
+      "type": "赤",
+      "english": "bloom",
+      "japanese": "咲く；盛りになる",
+      "related": []
+    },
+    {
+      "number": 1355,
+      "type": "赤",
+      "english": "insert",
+      "japanese": "差し込む；挿入する",
+      "related": []
+    },
+    {
+      "number": 1356,
+      "type": "赤",
+      "english": "awaiting",
+      "japanese": "待つ",
+      "related": []
+    },
+    {
+      "number": 1357,
+      "type": "赤",
+      "english": "dread",
+      "japanese": "恐れる",
+      "related": [
+        {
+          "type": "◇",
+          "english": "dreadful",
+          "part_of_speech": "形容詞",
+          "japanese": "ひどい、恐い"
+        },
+        {
+          "type": "=",
+          "english": "terrible",
+          "part_of_speech": "形容詞",
+          "japanese": "ひどい、恐い"
+        }
+      ]
+    },
+    {
+      "number": 1358,
+      "type": "赤",
+      "english": "conceal",
+      "japanese": "隠す",
+      "related": [
+        {
+          "type": "=",
+          "english": "hide",
+          "part_of_speech": "動詞",
+          "japanese": "隠す"
+        }
+      ]
+    },
+    {
+      "number": 1359,
+      "type": "赤",
+      "english": "enrich",
+      "japanese": "豊かにする；向上させる",
+      "related": []
+    },
+    {
+      "number": 1360,
+      "type": "赤",
+      "english": "cling",
+      "japanese": "固執する；くっつく",
+      "related": [
+        {
+          "type": "=",
+          "english": "stick",
+          "part_of_speech": "動詞",
+          "japanese": "固執する；くっつく"
+        }
+      ]
+    },
+    {
+      "number": 1361,
+      "type": "赤",
+      "english": "surpass",
+      "japanese": "まさる；越える",
+      "related": [
+        {
+          "type": "=",
+          "english": "excel",
+          "part_of_speech": "動詞",
+          "japanese": "まさる"
+        }
+      ]
+    },
+    {
+      "number": 1362,
+      "type": "赤",
+      "english": "suppress",
+      "japanese": "抑える；抑圧[抑制]する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "suppression",
+          "part_of_speech": "名詞",
+          "japanese": "抑制、抑圧"
+        }
+      ]
+    },
+    {
+      "number": 1363,
+      "type": "赤",
+      "english": "portray",
+      "japanese": "描く；描写する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "portrait",
+          "part_of_speech": "名詞",
+          "japanese": "肖像(画)；描写"
+        }
+      ]
+    },
+    {
+      "number": 1364,
+      "type": "赤",
+      "english": "soaring",
+      "japanese": "急上昇する；舞い上がる",
+      "related": []
+    },
+    {
+      "number": 1365,
+      "type": "赤",
+      "english": "drain",
+      "japanese": "排出する；流出する",
+      "related": []
+    },
+    {
+      "number": 1366,
+      "type": "赤",
+      "english": "glow",
+      "japanese": "ボーッと光る；ほてる",
+      "related": []
+    },
+    {
+      "number": 1367,
+      "type": "赤",
+      "english": "migrate",
+      "japanese": "移住する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "migration",
+          "part_of_speech": "名詞",
+          "japanese": "移住、(鳥・魚の)移動"
+        }
+      ]
+    },
+    {
+      "number": 1368,
+      "type": "赤",
+      "english": "exclaim",
+      "japanese": "叫ぶ",
+      "related": []
+    },
+    {
+      "number": 1369,
+      "type": "赤",
+      "english": "exert",
+      "japanese": "及ぼす；(力などを)行使する",
+      "related": []
+    },
+    {
+      "number": 1370,
+      "type": "赤",
+      "english": "disguise",
+      "japanese": "隠す",
+      "related": [
+        {
+          "type": "=",
+          "english": "hide",
+          "part_of_speech": "動詞",
+          "japanese": "隠す"
+        },
+        {
+          "type": "=",
+          "english": "conceal",
+          "part_of_speech": "動詞",
+          "japanese": "隠す"
+        }
+      ]
+    },
+    {
+      "number": 1371,
+      "type": "赤",
+      "english": "accelerate",
+      "japanese": "加速する；速める",
+      "related": []
+    },
+    {
+      "number": 1372,
+      "type": "赤",
+      "english": "dwell",
+      "japanese": "住む",
+      "related": [
+        {
+          "type": "◇",
+          "english": "dwelling",
+          "part_of_speech": "名詞",
+          "japanese": "住居"
+        },
+        {
+          "type": "=",
+          "english": "live",
+          "part_of_speech": "動詞",
+          "japanese": "住む"
+        }
+      ]
+    },
+    {
+      "number": 1373,
+      "type": "赤",
+      "english": "integrate",
+      "japanese": "融けこませる；統合する；とりこむ",
+      "related": []
+    },
+    {
+      "number": 1374,
+      "type": "赤",
+      "english": "weep",
+      "japanese": "泣く",
+      "related": [
+        {
+          "type": "◇",
+          "english": "sob",
+          "part_of_speech": "動詞",
+          "japanese": "むせび泣く、泣きじゃくる"
+        }
+      ]
+    },
+    {
+      "number": 1375,
+      "type": "赤",
+      "english": "reassure",
+      "japanese": "安心させる；元気づける",
+      "related": [
+        {
+          "type": "◇",
+          "english": "reassuring",
+          "part_of_speech": "形容詞",
+          "japanese": "安心させる"
+        }
+      ]
+    },
+    {
+      "number": 1376,
+      "type": "赤",
+      "english": "crawl",
+      "japanese": "はって進む",
+      "related": [
+        {
+          "type": "=",
+          "english": "creep",
+          "part_of_speech": "動詞",
+          "japanese": "はって進む"
+        }
+      ]
+    },
+    {
+      "number": 1377,
+      "type": "赤",
+      "english": "restrain",
+      "japanese": "抑制する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "restraint",
+          "part_of_speech": "名詞",
+          "japanese": "制止、束縛"
+        },
+        {
+          "type": "=",
+          "english": "control",
+          "part_of_speech": "動詞",
+          "japanese": "抑制する"
+        },
+        {
+          "type": "=",
+          "english": "prevent",
+          "part_of_speech": "動詞",
+          "japanese": "抑制する"
+        }
+      ]
+    },
+    {
+      "number": 1378,
+      "type": "赤",
+      "english": "resent",
+      "japanese": "腹を立てる；憤慨する；不快に思う",
+      "related": [
+        {
+          "type": "◇",
+          "english": "resentment",
+          "part_of_speech": "名詞",
+          "japanese": "憤慨、立腹"
+        },
+        {
+          "type": "◇",
+          "english": "resentful",
+          "part_of_speech": "形容詞",
+          "japanese": "憤慨している、怒っている"
+        }
+      ]
+    },
+    {
+      "number": 1379,
+      "type": "赤",
+      "english": "yell",
+      "japanese": "大声で叫ぶ",
+      "related": []
+    },
+    {
+      "number": 1380,
+      "type": "赤",
+      "english": "assess",
+      "japanese": "評価する；推定する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "assessment",
+          "part_of_speech": "名詞",
+          "japanese": "評価"
+        },
+        {
+          "type": "=",
+          "english": "evaluate",
+          "part_of_speech": "動詞",
+          "japanese": "推定する"
+        },
+        {
+          "type": "=",
+          "english": "estimate",
+          "part_of_speech": "動詞",
+          "japanese": "推定する"
+        }
+      ]
+    },
+    {
+      "number": 1381,
+      "type": "赤",
+      "english": "carve",
+      "japanese": "彫る",
+      "related": [
+        {
+          "type": "◇",
+          "english": "carved",
+          "part_of_speech": "形容詞",
+          "japanese": "彫刻された"
+        }
+      ]
+    },
+    {
+      "number": 1382,
+      "type": "赤",
+      "english": "halt",
+      "japanese": "止める",
+      "related": []
+    },
+    {
+      "number": 1383,
+      "type": "赤",
+      "english": "inspect",
+      "japanese": "検査する；視察する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "inspection",
+          "part_of_speech": "名詞",
+          "japanese": "検査；視察"
+        },
+        {
+          "type": "=",
+          "english": "examine",
+          "part_of_speech": "動詞",
+          "japanese": "検査する"
+        }
+      ]
+    },
+    {
+      "number": 1384,
+      "type": "赤",
+      "english": "tackle",
+      "japanese": "取り組む",
+      "related": []
+    },
+    {
+      "number": 1385,
+      "type": "赤",
+      "english": "omit",
+      "japanese": "省く；省略する",
+      "related": [
+        {
+          "type": "=",
+          "english": "leave out",
+          "part_of_speech": "動詞",
+          "japanese": "省く"
+        }
+      ]
+    },
+    {
+      "number": 1386,
+      "type": "赤",
+      "english": "chew",
+      "japanese": "かむ",
+      "related": []
+    },
+    {
+      "number": 1387,
+      "type": "赤",
+      "english": "resume",
+      "japanese": "再開する；再び始める",
+      "related": []
+    },
+    {
+      "number": 1388,
+      "type": "赤",
+      "english": "mold",
+      "japanese": "作る；形成する",
+      "related": []
+    },
+    {
+      "number": 1389,
+      "type": "赤",
+      "english": "accommodate",
+      "japanese": "収容する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "accommodation",
+          "part_of_speech": "名詞",
+          "japanese": "宿泊[収容]設備"
+        }
+      ]
+    },
+    {
+      "number": 1390,
+      "type": "赤",
+      "english": "erase",
+      "japanese": "消す",
+      "related": [
+        {
+          "type": "=",
+          "english": "wipe off",
+          "part_of_speech": "動詞",
+          "japanese": "消す"
+        },
+        {
+          "type": "=",
+          "english": "rub out",
+          "part_of_speech": "動詞",
+          "japanese": "消す"
+        }
+      ]
+    },
+    {
+      "number": 1391,
+      "type": "赤",
+      "english": "inferred",
+      "japanese": "推量する",
+      "related": []
+    },
+    {
+      "number": 1392,
+      "type": "赤",
+      "english": "revive",
+      "japanese": "生き返らせる；生き返る",
+      "related": [
+        {
+          "type": "◇",
+          "english": "revival",
+          "part_of_speech": "名詞",
+          "japanese": "生き返り、復活"
+        }
+      ]
+    },
+    {
+      "number": 1393,
+      "type": "赤",
+      "english": "contemplate",
+      "japanese": "考える；～しようと考える",
+      "related": [
+        {
+          "type": "=",
+          "english": "consider",
+          "part_of_speech": "動詞",
+          "japanese": "考える"
+        }
+      ]
+    },
+    {
+      "number": 1394,
+      "type": "赤",
+      "english": "rotate",
+      "japanese": "回転する；回転させる",
+      "related": [
+        {
+          "type": "◇",
+          "english": "rotation",
+          "part_of_speech": "名詞",
+          "japanese": "回転、自転、交替"
+        }
+      ]
+    },
+    {
+      "number": 1395,
+      "type": "赤",
+      "english": "disrupt",
+      "japanese": "かき乱す；中断させる",
+      "related": [
+        {
+          "type": "◇",
+          "english": "disruption",
+          "part_of_speech": "名詞",
+          "japanese": "中断、混乱"
+        },
+        {
+          "type": "=",
+          "english": "disturb",
+          "part_of_speech": "動詞",
+          "japanese": "かき乱す；中断させる"
+        }
+      ]
+    },
+    {
+      "number": 1396,
+      "type": "赤",
+      "english": "navigate",
+      "japanese": "進路を決める；誘導する；かじをとる",
+      "related": [
+        {
+          "type": "◇",
+          "english": "navigation",
+          "part_of_speech": "名詞",
+          "japanese": "運行、航海"
+        }
+      ]
+    },
+    {
+      "number": 1397,
+      "type": "赤",
+      "english": "ache",
+      "japanese": "痛む",
+      "related": []
+    },
+    {
+      "number": 1398,
+      "type": "赤",
+      "english": "discard",
+      "japanese": "捨てる；放棄する；処分する",
+      "related": []
+    },
+    {
+      "number": 1399,
+      "type": "赤",
+      "english": "incorporate",
+      "japanese": "取り入れる",
+      "related": []
+    },
+    {
+      "number": 1400,
+      "type": "赤",
+      "english": "overtake",
+      "japanese": "追い越す",
+      "related": []
+    }
+  ]
+}
