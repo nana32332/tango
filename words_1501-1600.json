@@ -1,0 +1,1252 @@
+{
+  "source": "MINIMAL PHRASES (5) 名詞 p.252-265",
+  "range": [
+    1501,
+    1600
+  ],
+  "entries": [
+    {
+      "number": 1501,
+      "type": "赤",
+      "english": "surveillance",
+      "japanese": "監視",
+      "related": []
+    },
+    {
+      "number": 1502,
+      "type": "赤",
+      "english": "trash",
+      "japanese": "ゴミ；がらくた",
+      "related": [
+        {
+          "type": "◇",
+          "english": "litter",
+          "part_of_speech": "名詞・動詞",
+          "japanese": "ゴミ；一腹の子；散らかす"
+        },
+        {
+          "type": "◇",
+          "english": "scrap",
+          "part_of_speech": "名詞・動詞",
+          "japanese": "断片；くず；残飯；～を廃棄する"
+        },
+        {
+          "type": "◇",
+          "english": "landfill",
+          "part_of_speech": "名詞",
+          "japanese": "ゴミ処理地"
+        },
+        {
+          "type": "=",
+          "english": "rubbish",
+          "part_of_speech": "名詞",
+          "japanese": "ゴミ；がらくた"
+        },
+        {
+          "type": "=",
+          "english": "garbage",
+          "part_of_speech": "名詞",
+          "japanese": "がらくた"
+        }
+      ]
+    },
+    {
+      "number": 1503,
+      "type": "赤",
+      "english": "prestige",
+      "japanese": "名声；威信；信望",
+      "related": [
+        {
+          "type": "◇",
+          "english": "prestigious",
+          "part_of_speech": "形容詞",
+          "japanese": "名声のある、一流の"
+        }
+      ]
+    },
+    {
+      "number": 1504,
+      "type": "赤",
+      "english": "headquarters",
+      "japanese": "本部；本社；司令部",
+      "related": []
+    },
+    {
+      "number": 1505,
+      "type": "赤",
+      "english": "wilderness",
+      "japanese": "荒野；未開の地",
+      "related": []
+    },
+    {
+      "number": 1506,
+      "type": "赤",
+      "english": "orbit",
+      "japanese": "軌道；～の周りを回る",
+      "related": []
+    },
+    {
+      "number": 1507,
+      "type": "赤",
+      "english": "bias",
+      "japanese": "偏見；えこひいき；傾向",
+      "related": [
+        {
+          "type": "=",
+          "english": "prejudice",
+          "part_of_speech": "名詞",
+          "japanese": "偏見"
+        }
+      ]
+    },
+    {
+      "number": 1508,
+      "type": "赤",
+      "english": "Republic",
+      "japanese": "共和国",
+      "related": []
+    },
+    {
+      "number": 1509,
+      "type": "赤",
+      "english": "bargain",
+      "japanese": "掘り出し物；値引き品；交渉する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "bargaining",
+          "part_of_speech": "名詞",
+          "japanese": "交渉"
+        }
+      ]
+    },
+    {
+      "number": 1510,
+      "type": "赤",
+      "english": "domain",
+      "japanese": "領域",
+      "related": [
+        {
+          "type": "=",
+          "english": "field",
+          "part_of_speech": "名詞",
+          "japanese": "領域"
+        },
+        {
+          "type": "=",
+          "english": "area",
+          "part_of_speech": "名詞",
+          "japanese": "領域"
+        }
+      ]
+    },
+    {
+      "number": 1511,
+      "type": "赤",
+      "english": "fragment",
+      "japanese": "破片；断片",
+      "related": []
+    },
+    {
+      "number": 1512,
+      "type": "赤",
+      "english": "Galaxy",
+      "japanese": "星雲；銀河(系)；小宇宙",
+      "related": []
+    },
+    {
+      "number": 1513,
+      "type": "赤",
+      "english": "lap",
+      "japanese": "ひざ",
+      "related": [
+        {
+          "type": "◇",
+          "english": "knee",
+          "part_of_speech": "名詞",
+          "japanese": "ひざ(頭)"
+        },
+        {
+          "type": "◇",
+          "english": "kneel",
+          "part_of_speech": "動詞",
+          "japanese": "ひざまづく"
+        }
+      ]
+    },
+    {
+      "number": 1514,
+      "type": "赤",
+      "english": "deadline",
+      "japanese": "締め切り",
+      "related": []
+    },
+    {
+      "number": 1515,
+      "type": "赤",
+      "english": "bullet",
+      "japanese": "弾丸",
+      "related": []
+    },
+    {
+      "number": 1516,
+      "type": "赤",
+      "english": "pedestrian",
+      "japanese": "歩行者",
+      "related": []
+    },
+    {
+      "number": 1517,
+      "type": "赤",
+      "english": "wit",
+      "japanese": "機知；ウイット",
+      "related": [
+        {
+          "type": "◇",
+          "english": "witty",
+          "part_of_speech": "形容詞",
+          "japanese": "機知のある、気の利いた"
+        }
+      ]
+    },
+    {
+      "number": 1518,
+      "type": "赤",
+      "english": "nuisance",
+      "japanese": "迷惑",
+      "related": []
+    },
+    {
+      "number": 1519,
+      "type": "赤",
+      "english": "criteria",
+      "japanese": "基準；尺度",
+      "related": [
+        {
+          "type": "=",
+          "english": "standard",
+          "part_of_speech": "名詞",
+          "japanese": "基準；尺度"
+        }
+      ]
+    },
+    {
+      "number": 1520,
+      "type": "赤",
+      "english": "hardship",
+      "japanese": "苦難",
+      "related": []
+    },
+    {
+      "number": 1521,
+      "type": "赤",
+      "english": "glory",
+      "japanese": "栄光；すばらしさ；誇りとなるもの",
+      "related": [
+        {
+          "type": "◇",
+          "english": "glorious",
+          "part_of_speech": "形容詞",
+          "japanese": "すばらしい；栄光ある"
+        }
+      ]
+    },
+    {
+      "number": 1522,
+      "type": "赤",
+      "english": "pavement",
+      "japanese": "歩道",
+      "related": [
+        {
+          "type": "◇",
+          "english": "pave",
+          "part_of_speech": "動詞",
+          "japanese": "(道路)を舗装する"
+        },
+        {
+          "type": "=",
+          "english": "sidewalk",
+          "part_of_speech": "名詞",
+          "japanese": "歩道"
+        }
+      ]
+    },
+    {
+      "number": 1523,
+      "type": "赤",
+      "english": "Navy",
+      "japanese": "海軍",
+      "related": [
+        {
+          "type": "◇",
+          "english": "naval",
+          "part_of_speech": "形容詞",
+          "japanese": "海軍の"
+        }
+      ]
+    },
+    {
+      "number": 1524,
+      "type": "赤",
+      "english": "script",
+      "japanese": "台本；筆跡；文字",
+      "related": [
+        {
+          "type": "◇",
+          "english": "manuscript",
+          "part_of_speech": "名詞",
+          "japanese": "原稿、文書；手書き"
+        }
+      ]
+    },
+    {
+      "number": 1525,
+      "type": "赤",
+      "english": "pension",
+      "japanese": "年金",
+      "related": []
+    },
+    {
+      "number": 1526,
+      "type": "赤",
+      "english": "province",
+      "japanese": "州；地方",
+      "related": [
+        {
+          "type": "◇",
+          "english": "provincial",
+          "part_of_speech": "形容詞",
+          "japanese": "州の、地方の"
+        },
+        {
+          "type": "◇",
+          "english": "prefecture",
+          "part_of_speech": "名詞",
+          "japanese": "(フランス、日本などの)県、府"
+        }
+      ]
+    },
+    {
+      "number": 1527,
+      "type": "赤",
+      "english": "surplus",
+      "japanese": "余剰；過剰",
+      "related": [
+        {
+          "type": "=",
+          "english": "excess",
+          "part_of_speech": "名詞",
+          "japanese": "過剰"
+        }
+      ]
+    },
+    {
+      "number": 1528,
+      "type": "赤",
+      "english": "moisture",
+      "japanese": "水分；湿気",
+      "related": [
+        {
+          "type": "◇",
+          "english": "moist",
+          "part_of_speech": "形容詞",
+          "japanese": "湿った"
+        }
+      ]
+    },
+    {
+      "number": 1529,
+      "type": "赤",
+      "english": "patch",
+      "japanese": "当て；部分",
+      "related": []
+    },
+    {
+      "number": 1530,
+      "type": "赤",
+      "english": "altitude",
+      "japanese": "高度",
+      "related": [
+        {
+          "type": "=",
+          "english": "height",
+          "part_of_speech": "名詞",
+          "japanese": "高度"
+        }
+      ]
+    },
+    {
+      "number": 1531,
+      "type": "赤",
+      "english": "thermometer",
+      "japanese": "温度計",
+      "related": [
+        {
+          "type": "◇",
+          "english": "barometer",
+          "part_of_speech": "名詞",
+          "japanese": "気圧計"
+        }
+      ]
+    },
+    {
+      "number": 1532,
+      "type": "赤",
+      "english": "tuition",
+      "japanese": "授業料；授業；指導",
+      "related": [
+        {
+          "type": "=",
+          "english": "tuition fees",
+          "part_of_speech": "名詞",
+          "japanese": "授業料"
+        }
+      ]
+    },
+    {
+      "number": 1533,
+      "type": "赤",
+      "english": "troop",
+      "japanese": "軍隊",
+      "related": []
+    },
+    {
+      "number": 1534,
+      "type": "赤",
+      "english": "primate",
+      "japanese": "霊長類",
+      "related": []
+    },
+    {
+      "number": 1535,
+      "type": "赤",
+      "english": "flaw",
+      "japanese": "欠陥；不備；欠点；傷",
+      "related": []
+    },
+    {
+      "number": 1536,
+      "type": "赤",
+      "english": "nephew",
+      "japanese": "甥",
+      "related": [
+        {
+          "type": "◇",
+          "english": "niece",
+          "part_of_speech": "名詞",
+          "japanese": "姪"
+        },
+        {
+          "type": "◇",
+          "english": "cousin",
+          "part_of_speech": "名詞",
+          "japanese": "いとこ"
+        },
+        {
+          "type": "◇",
+          "english": "sibling",
+          "part_of_speech": "名詞",
+          "japanese": "兄弟姉妹"
+        }
+      ]
+    },
+    {
+      "number": 1537,
+      "type": "赤",
+      "english": "garment",
+      "japanese": "衣服",
+      "related": [
+        {
+          "type": "◇",
+          "english": "costume",
+          "part_of_speech": "名詞",
+          "japanese": "衣装"
+        }
+      ]
+    },
+    {
+      "number": 1538,
+      "type": "赤",
+      "english": "diagnosis",
+      "japanese": "診断；分析",
+      "related": [
+        {
+          "type": "◇",
+          "english": "diagnose",
+          "part_of_speech": "動詞",
+          "japanese": "～を診断する"
+        }
+      ]
+    },
+    {
+      "number": 1539,
+      "type": "赤",
+      "english": "commerce",
+      "japanese": "商業；貿易；商取引",
+      "related": [
+        {
+          "type": "◇",
+          "english": "commercial",
+          "part_of_speech": "形容詞・名詞",
+          "japanese": "商業的な；コマーシャル"
+        }
+      ]
+    },
+    {
+      "number": 1540,
+      "type": "赤",
+      "english": "antiquity",
+      "japanese": "古代",
+      "related": [
+        {
+          "type": "◇",
+          "english": "antique",
+          "part_of_speech": "形容詞・名詞",
+          "japanese": "古めかしい、骨董品の；骨董品"
+        }
+      ]
+    },
+    {
+      "number": 1541,
+      "type": "赤",
+      "english": "fraction",
+      "japanese": "ほんの一部；少量；分数",
+      "related": []
+    },
+    {
+      "number": 1542,
+      "type": "赤",
+      "english": "irony",
+      "japanese": "皮肉；奇妙な事実",
+      "related": [
+        {
+          "type": "◇",
+          "english": "ironically",
+          "part_of_speech": "副詞",
+          "japanese": "皮肉にも"
+        },
+        {
+          "type": "◇",
+          "english": "ironic",
+          "part_of_speech": "形容詞",
+          "japanese": "皮肉な"
+        }
+      ]
+    },
+    {
+      "number": 1543,
+      "type": "赤",
+      "english": "nightmare",
+      "japanese": "悪夢",
+      "related": []
+    },
+    {
+      "number": 1544,
+      "type": "赤",
+      "english": "defect",
+      "japanese": "欠陥；障害",
+      "related": [
+        {
+          "type": "◇",
+          "english": "defective",
+          "part_of_speech": "形容詞",
+          "japanese": "欠陥のある"
+        }
+      ]
+    },
+    {
+      "number": 1545,
+      "type": "赤",
+      "english": "certificate",
+      "japanese": "証明書；免許状",
+      "related": [
+        {
+          "type": "◇",
+          "english": "certify",
+          "part_of_speech": "動詞",
+          "japanese": "～を証明する"
+        }
+      ]
+    },
+    {
+      "number": 1546,
+      "type": "赤",
+      "english": "decay",
+      "japanese": "腐敗；衰退；衰える",
+      "related": [
+        {
+          "type": "=",
+          "english": "decline",
+          "part_of_speech": "名詞",
+          "japanese": "衰退"
+        }
+      ]
+    },
+    {
+      "number": 1547,
+      "type": "赤",
+      "english": "erosion",
+      "japanese": "浸食",
+      "related": [
+        {
+          "type": "◇",
+          "english": "erode",
+          "part_of_speech": "動詞",
+          "japanese": "～を浸食する、(信頼・価値など)を損なう"
+        }
+      ]
+    },
+    {
+      "number": 1548,
+      "type": "赤",
+      "english": "recipe",
+      "japanese": "秘けつ；調理法",
+      "related": []
+    },
+    {
+      "number": 1549,
+      "type": "赤",
+      "english": "skeleton",
+      "japanese": "骨格；骸骨",
+      "related": [
+        {
+          "type": "◇",
+          "english": "skull",
+          "part_of_speech": "名詞",
+          "japanese": "頭蓋骨"
+        }
+      ]
+    },
+    {
+      "number": 1550,
+      "type": "赤",
+      "english": "grace",
+      "japanese": "優雅さ；気品",
+      "related": [
+        {
+          "type": "◇",
+          "english": "graceful",
+          "part_of_speech": "形容詞",
+          "japanese": "優雅な、上品な"
+        },
+        {
+          "type": "◇",
+          "english": "disgrace",
+          "part_of_speech": "名詞",
+          "japanese": "不名誉、恥辱"
+        },
+        {
+          "type": "=",
+          "english": "elegance",
+          "part_of_speech": "名詞",
+          "japanese": "優雅さ；気品"
+        },
+        {
+          "type": "=",
+          "english": "elegant",
+          "part_of_speech": "形容詞",
+          "japanese": "優雅な、上品な"
+        }
+      ]
+    },
+    {
+      "number": 1551,
+      "type": "赤",
+      "english": "landmark",
+      "japanese": "名所；目印",
+      "related": []
+    },
+    {
+      "number": 1552,
+      "type": "赤",
+      "english": "dementia",
+      "japanese": "認知症",
+      "related": []
+    },
+    {
+      "number": 1553,
+      "type": "赤",
+      "english": "flesh",
+      "japanese": "肉；肌",
+      "related": []
+    },
+    {
+      "number": 1554,
+      "type": "赤",
+      "english": "collision",
+      "japanese": "衝突",
+      "related": [
+        {
+          "type": "◇",
+          "english": "collide",
+          "part_of_speech": "動詞",
+          "japanese": "衝突する"
+        }
+      ]
+    },
+    {
+      "number": 1555,
+      "type": "赤",
+      "english": "hazard",
+      "japanese": "危険なもの；危険要因",
+      "related": [
+        {
+          "type": "◇",
+          "english": "hazardous",
+          "part_of_speech": "形容詞",
+          "japanese": "危険な"
+        },
+        {
+          "type": "=",
+          "english": "dangerous",
+          "part_of_speech": "形容詞",
+          "japanese": "危険な"
+        }
+      ]
+    },
+    {
+      "number": 1556,
+      "type": "赤",
+      "english": "tomb",
+      "japanese": "墓",
+      "related": [
+        {
+          "type": "◇",
+          "english": "comb",
+          "part_of_speech": "名詞",
+          "japanese": "くし"
+        }
+      ]
+    },
+    {
+      "number": 1557,
+      "type": "赤",
+      "english": "injection",
+      "japanese": "注射",
+      "related": [
+        {
+          "type": "◇",
+          "english": "inject",
+          "part_of_speech": "動詞",
+          "japanese": "～を注射する"
+        }
+      ]
+    },
+    {
+      "number": 1558,
+      "type": "赤",
+      "english": "breakthrough",
+      "japanese": "飛躍的進歩；急進展",
+      "related": []
+    },
+    {
+      "number": 1559,
+      "type": "赤",
+      "english": "leather",
+      "japanese": "革；革製の",
+      "related": []
+    },
+    {
+      "number": 1560,
+      "type": "赤",
+      "english": "jewelry",
+      "japanese": "宝石；宝石類",
+      "related": [
+        {
+          "type": "◇",
+          "english": "jewel",
+          "part_of_speech": "名詞",
+          "japanese": "(個々の)宝石"
+        }
+      ]
+    },
+    {
+      "number": 1561,
+      "type": "赤",
+      "english": "cue",
+      "japanese": "合図；手がかり；きっかけ",
+      "related": [
+        {
+          "type": "=",
+          "english": "signal",
+          "part_of_speech": "名詞",
+          "japanese": "合図"
+        },
+        {
+          "type": "=",
+          "english": "hint",
+          "part_of_speech": "名詞",
+          "japanese": "合図"
+        }
+      ]
+    },
+    {
+      "number": 1562,
+      "type": "赤",
+      "english": "ambulance",
+      "japanese": "救急車",
+      "related": []
+    },
+    {
+      "number": 1563,
+      "type": "赤",
+      "english": "estate",
+      "japanese": "不動産；所有地；財産",
+      "related": []
+    },
+    {
+      "number": 1564,
+      "type": "赤",
+      "english": "commodity",
+      "japanese": "商品；日用品",
+      "related": [
+        {
+          "type": "=",
+          "english": "goods",
+          "part_of_speech": "名詞",
+          "japanese": "商品"
+        }
+      ]
+    },
+    {
+      "number": 1565,
+      "type": "赤",
+      "english": "departure",
+      "japanese": "出発；逸脱；離反",
+      "related": [
+        {
+          "type": "◇",
+          "english": "depart",
+          "part_of_speech": "動詞",
+          "japanese": "出発する"
+        },
+        {
+          "type": "=",
+          "english": "set out",
+          "part_of_speech": "動詞",
+          "japanese": "出発する"
+        },
+        {
+          "type": "=",
+          "english": "set off",
+          "part_of_speech": "動詞",
+          "japanese": "出発する"
+        }
+      ]
+    },
+    {
+      "number": 1566,
+      "type": "赤",
+      "english": "phase",
+      "japanese": "段階；時期",
+      "related": [
+        {
+          "type": "=",
+          "english": "stage",
+          "part_of_speech": "名詞",
+          "japanese": "段階"
+        }
+      ]
+    },
+    {
+      "number": 1567,
+      "type": "赤",
+      "english": "thief",
+      "japanese": "泥棒",
+      "related": [
+        {
+          "type": "◇",
+          "english": "theft",
+          "part_of_speech": "名詞",
+          "japanese": "盗み"
+        },
+        {
+          "type": "◇",
+          "english": "burglar",
+          "part_of_speech": "名詞",
+          "japanese": "強盗"
+        }
+      ]
+    },
+    {
+      "number": 1568,
+      "type": "赤",
+      "english": "Saint",
+      "japanese": "聖；聖人；聖者",
+      "related": []
+    },
+    {
+      "number": 1569,
+      "type": "赤",
+      "english": "sculpture",
+      "japanese": "彫刻",
+      "related": []
+    },
+    {
+      "number": 1570,
+      "type": "赤",
+      "english": "grief",
+      "japanese": "悲しみ",
+      "related": [
+        {
+          "type": "◇",
+          "english": "grieve",
+          "part_of_speech": "動詞",
+          "japanese": "悲しむ；～を悲しませる"
+        }
+      ]
+    },
+    {
+      "number": 1571,
+      "type": "赤",
+      "english": "lane",
+      "japanese": "車線；小道",
+      "related": []
+    },
+    {
+      "number": 1572,
+      "type": "赤",
+      "english": "predator",
+      "japanese": "捕食動物；肉食動物",
+      "related": []
+    },
+    {
+      "number": 1573,
+      "type": "赤",
+      "english": "fluid",
+      "japanese": "流体；流動体",
+      "related": []
+    },
+    {
+      "number": 1574,
+      "type": "赤",
+      "english": "incentive",
+      "japanese": "はげみ；動機；刺激",
+      "related": [
+        {
+          "type": "=",
+          "english": "motivation",
+          "part_of_speech": "名詞",
+          "japanese": "動機"
+        }
+      ]
+    },
+    {
+      "number": 1575,
+      "type": "赤",
+      "english": "bride",
+      "japanese": "花嫁",
+      "related": [
+        {
+          "type": "◇",
+          "english": "bachelor",
+          "part_of_speech": "名詞",
+          "japanese": "独身男性；学士"
+        },
+        {
+          "type": "◇",
+          "english": "spouse",
+          "part_of_speech": "名詞",
+          "japanese": "配偶者"
+        }
+      ]
+    },
+    {
+      "number": 1576,
+      "type": "赤",
+      "english": "intervention",
+      "japanese": "介入；干渉",
+      "related": [
+        {
+          "type": "◇",
+          "english": "intervene",
+          "part_of_speech": "動詞",
+          "japanese": "介入する、干渉する"
+        }
+      ]
+    },
+    {
+      "number": 1577,
+      "type": "赤",
+      "english": "margin",
+      "japanese": "差；票差；余白；ふち",
+      "related": [
+        {
+          "type": "◇",
+          "english": "marginal",
+          "part_of_speech": "形容詞",
+          "japanese": "端の、重要でない"
+        },
+        {
+          "type": "=",
+          "english": "edge",
+          "part_of_speech": "名詞",
+          "japanese": "ふち"
+        },
+        {
+          "type": "=",
+          "english": "unimportant",
+          "part_of_speech": "形容詞",
+          "japanese": "重要でない"
+        }
+      ]
+    },
+    {
+      "number": 1578,
+      "type": "赤",
+      "english": "biography",
+      "japanese": "伝記",
+      "related": [
+        {
+          "type": "◇",
+          "english": "autobiography",
+          "part_of_speech": "名詞",
+          "japanese": "自叙伝"
+        }
+      ]
+    },
+    {
+      "number": 1579,
+      "type": "赤",
+      "english": "consent",
+      "japanese": "同意；承諾；同意する",
+      "related": []
+    },
+    {
+      "number": 1580,
+      "type": "赤",
+      "english": "volcano",
+      "japanese": "火山",
+      "related": [
+        {
+          "type": "◇",
+          "english": "volcanic",
+          "part_of_speech": "形容詞",
+          "japanese": "火山の"
+        }
+      ]
+    },
+    {
+      "number": 1581,
+      "type": "赤",
+      "english": "rebel",
+      "japanese": "反逆者；反逆する、反抗する",
+      "related": [
+        {
+          "type": "◇",
+          "english": "rebellion",
+          "part_of_speech": "名詞",
+          "japanese": "反乱、反抗"
+        }
+      ]
+    },
+    {
+      "number": 1582,
+      "type": "赤",
+      "english": "metaphor",
+      "japanese": "比喩；隠喩",
+      "related": []
+    },
+    {
+      "number": 1583,
+      "type": "赤",
+      "english": "legislation",
+      "japanese": "法律；立法；法律制定",
+      "related": []
+    },
+    {
+      "number": 1584,
+      "type": "赤",
+      "english": "lightning",
+      "japanese": "雷；稲妻",
+      "related": [
+        {
+          "type": "◇",
+          "english": "thunder",
+          "part_of_speech": "名詞",
+          "japanese": "雷鳴"
+        }
+      ]
+    },
+    {
+      "number": 1585,
+      "type": "赤",
+      "english": "pesticide",
+      "japanese": "殺虫剤；除草剤",
+      "related": [
+        {
+          "type": "◇",
+          "english": "pest",
+          "part_of_speech": "名詞",
+          "japanese": "害虫、厄介な存在；ペスト"
+        }
+      ]
+    },
+    {
+      "number": 1586,
+      "type": "赤",
+      "english": "column",
+      "japanese": "コラム；円柱；縦の列",
+      "related": []
+    },
+    {
+      "number": 1587,
+      "type": "赤",
+      "english": "rumor",
+      "japanese": "うわさ",
+      "related": []
+    },
+    {
+      "number": 1588,
+      "type": "赤",
+      "english": "dust",
+      "japanese": "ほこり",
+      "related": [
+        {
+          "type": "◇",
+          "english": "dirt",
+          "part_of_speech": "名詞",
+          "japanese": "汚れ；泥、土"
+        }
+      ]
+    },
+    {
+      "number": 1589,
+      "type": "赤",
+      "english": "dialogue",
+      "japanese": "対話",
+      "related": []
+    },
+    {
+      "number": 1590,
+      "type": "赤",
+      "english": "kindergarten",
+      "japanese": "幼稚園",
+      "related": []
+    },
+    {
+      "number": 1591,
+      "type": "赤",
+      "english": "diabetes",
+      "japanese": "糖尿病",
+      "related": [
+        {
+          "type": "◇",
+          "english": "insulin",
+          "part_of_speech": "名詞",
+          "japanese": "インスリン"
+        }
+      ]
+    },
+    {
+      "number": 1592,
+      "type": "赤",
+      "english": "obesity",
+      "japanese": "肥満",
+      "related": [
+        {
+          "type": "◇",
+          "english": "obese",
+          "part_of_speech": "形容詞",
+          "japanese": "肥満の、太りすぎの"
+        },
+        {
+          "type": "◇",
+          "english": "low-fat",
+          "part_of_speech": "形容詞・名詞",
+          "japanese": "低脂肪(の)"
+        },
+        {
+          "type": "=",
+          "english": "fat",
+          "part_of_speech": "形容詞",
+          "japanese": "肥満の、太りすぎの"
+        }
+      ]
+    },
+    {
+      "number": 1593,
+      "type": "赤",
+      "english": "patent",
+      "japanese": "特許；～の特許を取る",
+      "related": [
+        {
+          "type": "◇",
+          "english": "copyright",
+          "part_of_speech": "名詞",
+          "japanese": "著作権、版権"
+        }
+      ]
+    },
+    {
+      "number": 1594,
+      "type": "赤",
+      "english": "chapter",
+      "japanese": "章",
+      "related": []
+    },
+    {
+      "number": 1595,
+      "type": "赤",
+      "english": "Palace",
+      "japanese": "宮殿；大邸宅",
+      "related": [
+        {
+          "type": "◇",
+          "english": "mansion",
+          "part_of_speech": "名詞",
+          "japanese": "(豪華な)大邸宅"
+        }
+      ]
+    },
+    {
+      "number": 1596,
+      "type": "赤",
+      "english": "laundry",
+      "japanese": "洗濯",
+      "related": []
+    },
+    {
+      "number": 1597,
+      "type": "赤",
+      "english": "ward",
+      "japanese": "病棟；区",
+      "related": []
+    },
+    {
+      "number": 1598,
+      "type": "赤",
+      "english": "outbreak",
+      "japanese": "ぼっ発；発生",
+      "related": []
+    },
+    {
+      "number": 1599,
+      "type": "赤",
+      "english": "equation",
+      "japanese": "方程式；等式",
+      "related": [
+        {
+          "type": "◇",
+          "english": "equate",
+          "part_of_speech": "動詞",
+          "japanese": "～を同一視する"
+        }
+      ]
+    },
+    {
+      "number": 1600,
+      "type": "赤",
+      "english": "archaeologist",
+      "japanese": "考古学者",
+      "related": [
+        {
+          "type": "◇",
+          "english": "archaeology",
+          "part_of_speech": "名詞",
+          "japanese": "考古学"
+        }
+      ]
+    }
+  ]
+}
