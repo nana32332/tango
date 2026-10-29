@@ -17,7 +17,20 @@
       "type": "赤",
       "english": "trash",
       "japanese": "ゴミ；がらくた",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "rubbish",
+          "part_of_speech": "名詞",
+          "japanese": "ゴミ；がらくた"
+        },
+        {
+          "type": "=",
+          "english": "garbage",
+          "part_of_speech": "名詞",
+          "japanese": "がらくた"
+        }
+      ]
     },
     {
       "number": 1503,
@@ -59,7 +72,14 @@
       "type": "赤",
       "english": "bias",
       "japanese": "偏見；えこひいき；傾向",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "prejudice",
+          "part_of_speech": "名詞",
+          "japanese": "偏見"
+        }
+      ]
     },
     {
       "number": 1508,
@@ -87,7 +107,20 @@
       "type": "赤",
       "english": "domain",
       "japanese": "領域",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "field",
+          "part_of_speech": "名詞",
+          "japanese": "領域"
+        },
+        {
+          "type": "=",
+          "english": "area",
+          "part_of_speech": "名詞",
+          "japanese": "領域"
+        }
+      ]
     },
     {
       "number": 1511,
@@ -164,7 +197,14 @@
       "type": "赤",
       "english": "criteria",
       "japanese": "基準；尺度",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "standard",
+          "part_of_speech": "名詞",
+          "japanese": "基準；尺度"
+        }
+      ]
     },
     {
       "number": 1520,
@@ -198,6 +238,12 @@
           "english": "pave",
           "part_of_speech": "動詞",
           "japanese": "(道路)を舗装する"
+        },
+        {
+          "type": "=",
+          "english": "sidewalk",
+          "part_of_speech": "名詞",
+          "japanese": "歩道"
         }
       ]
     },
@@ -255,7 +301,14 @@
       "type": "赤",
       "english": "surplus",
       "japanese": "余剰；過剰",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "excess",
+          "part_of_speech": "名詞",
+          "japanese": "過剰"
+        }
+      ]
     },
     {
       "number": 1528,
@@ -283,7 +336,14 @@
       "type": "赤",
       "english": "altitude",
       "japanese": "高度",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "height",
+          "part_of_speech": "名詞",
+          "japanese": "高度"
+        }
+      ]
     },
     {
       "number": 1531,
@@ -297,7 +357,14 @@
       "type": "赤",
       "english": "tuition",
       "japanese": "授業料；授業；指導",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "tuition fees",
+          "part_of_speech": "名詞",
+          "japanese": "授業料"
+        }
+      ]
     },
     {
       "number": 1533,
@@ -443,7 +510,14 @@
       "type": "赤",
       "english": "decay",
       "japanese": "腐敗；衰退；衰える",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "decline",
+          "part_of_speech": "名詞",
+          "japanese": "衰退"
+        }
+      ]
     },
     {
       "number": 1547,
@@ -490,6 +564,12 @@
           "english": "disgrace",
           "part_of_speech": "名詞",
           "japanese": "不名誉、恥辱"
+        },
+        {
+          "type": "=",
+          "english": "elegance",
+          "part_of_speech": "名詞",
+          "japanese": "優雅さ；気品"
         },
         {
           "type": "=",
@@ -608,7 +688,20 @@
       "type": "赤",
       "english": "cue",
       "japanese": "合図；手がかり；きっかけ",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "signal",
+          "part_of_speech": "名詞",
+          "japanese": "合図"
+        },
+        {
+          "type": "=",
+          "english": "hint",
+          "part_of_speech": "名詞",
+          "japanese": "合図"
+        }
+      ]
     },
     {
       "number": 1562,
@@ -629,7 +722,14 @@
       "type": "赤",
       "english": "commodity",
       "japanese": "商品；日用品",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "goods",
+          "part_of_speech": "名詞",
+          "japanese": "商品"
+        }
+      ]
     },
     {
       "number": 1565,
@@ -662,7 +762,14 @@
       "type": "赤",
       "english": "phase",
       "japanese": "段階；時期",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "stage",
+          "part_of_speech": "名詞",
+          "japanese": "段階"
+        }
+      ]
     },
     {
       "number": 1567,
@@ -732,7 +839,14 @@
       "type": "赤",
       "english": "incentive",
       "japanese": "はげみ；動機；刺激",
-      "related": []
+      "related": [
+        {
+          "type": "=",
+          "english": "motivation",
+          "part_of_speech": "名詞",
+          "japanese": "動機"
+        }
+      ]
     },
     {
       "number": 1575,
@@ -766,6 +880,12 @@
           "english": "marginal",
           "part_of_speech": "形容詞",
           "japanese": "端の、重要でない"
+        },
+        {
+          "type": "=",
+          "english": "edge",
+          "part_of_speech": "名詞",
+          "japanese": "ふち"
         },
         {
           "type": "=",
