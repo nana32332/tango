@@ -17,38 +17,7 @@
       "type": "赤",
       "english": "trash",
       "japanese": "ゴミ；がらくた",
-      "related": [
-        {
-          "type": "◇",
-          "english": "litter",
-          "part_of_speech": "名詞・動詞",
-          "japanese": "ゴミ；一腹の子；散らかす"
-        },
-        {
-          "type": "◇",
-          "english": "scrap",
-          "part_of_speech": "名詞・動詞",
-          "japanese": "断片；くず；残飯；～を廃棄する"
-        },
-        {
-          "type": "◇",
-          "english": "landfill",
-          "part_of_speech": "名詞",
-          "japanese": "ゴミ処理地"
-        },
-        {
-          "type": "=",
-          "english": "rubbish",
-          "part_of_speech": "名詞",
-          "japanese": "ゴミ；がらくた"
-        },
-        {
-          "type": "=",
-          "english": "garbage",
-          "part_of_speech": "名詞",
-          "japanese": "がらくた"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1503,
@@ -90,14 +59,7 @@
       "type": "赤",
       "english": "bias",
       "japanese": "偏見；えこひいき；傾向",
-      "related": [
-        {
-          "type": "=",
-          "english": "prejudice",
-          "part_of_speech": "名詞",
-          "japanese": "偏見"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1508,
@@ -125,20 +87,7 @@
       "type": "赤",
       "english": "domain",
       "japanese": "領域",
-      "related": [
-        {
-          "type": "=",
-          "english": "field",
-          "part_of_speech": "名詞",
-          "japanese": "領域"
-        },
-        {
-          "type": "=",
-          "english": "area",
-          "part_of_speech": "名詞",
-          "japanese": "領域"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1511,
@@ -160,12 +109,6 @@
       "english": "lap",
       "japanese": "ひざ",
       "related": [
-        {
-          "type": "◇",
-          "english": "knee",
-          "part_of_speech": "名詞",
-          "japanese": "ひざ(頭)"
-        },
         {
           "type": "◇",
           "english": "kneel",
@@ -221,14 +164,7 @@
       "type": "赤",
       "english": "criteria",
       "japanese": "基準；尺度",
-      "related": [
-        {
-          "type": "=",
-          "english": "standard",
-          "part_of_speech": "名詞",
-          "japanese": "基準；尺度"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1520,
@@ -262,12 +198,6 @@
           "english": "pave",
           "part_of_speech": "動詞",
           "japanese": "(道路)を舗装する"
-        },
-        {
-          "type": "=",
-          "english": "sidewalk",
-          "part_of_speech": "名詞",
-          "japanese": "歩道"
         }
       ]
     },
@@ -317,12 +247,6 @@
           "english": "provincial",
           "part_of_speech": "形容詞",
           "japanese": "州の、地方の"
-        },
-        {
-          "type": "◇",
-          "english": "prefecture",
-          "part_of_speech": "名詞",
-          "japanese": "(フランス、日本などの)県、府"
         }
       ]
     },
@@ -331,14 +255,7 @@
       "type": "赤",
       "english": "surplus",
       "japanese": "余剰；過剰",
-      "related": [
-        {
-          "type": "=",
-          "english": "excess",
-          "part_of_speech": "名詞",
-          "japanese": "過剰"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1528,
@@ -366,42 +283,21 @@
       "type": "赤",
       "english": "altitude",
       "japanese": "高度",
-      "related": [
-        {
-          "type": "=",
-          "english": "height",
-          "part_of_speech": "名詞",
-          "japanese": "高度"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1531,
       "type": "赤",
       "english": "thermometer",
       "japanese": "温度計",
-      "related": [
-        {
-          "type": "◇",
-          "english": "barometer",
-          "part_of_speech": "名詞",
-          "japanese": "気圧計"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1532,
       "type": "赤",
       "english": "tuition",
       "japanese": "授業料；授業；指導",
-      "related": [
-        {
-          "type": "=",
-          "english": "tuition fees",
-          "part_of_speech": "名詞",
-          "japanese": "授業料"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1533,
@@ -429,40 +325,14 @@
       "type": "赤",
       "english": "nephew",
       "japanese": "甥",
-      "related": [
-        {
-          "type": "◇",
-          "english": "niece",
-          "part_of_speech": "名詞",
-          "japanese": "姪"
-        },
-        {
-          "type": "◇",
-          "english": "cousin",
-          "part_of_speech": "名詞",
-          "japanese": "いとこ"
-        },
-        {
-          "type": "◇",
-          "english": "sibling",
-          "part_of_speech": "名詞",
-          "japanese": "兄弟姉妹"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1537,
       "type": "赤",
       "english": "garment",
       "japanese": "衣服",
-      "related": [
-        {
-          "type": "◇",
-          "english": "costume",
-          "part_of_speech": "名詞",
-          "japanese": "衣装"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1538,
@@ -573,14 +443,7 @@
       "type": "赤",
       "english": "decay",
       "japanese": "腐敗；衰退；衰える",
-      "related": [
-        {
-          "type": "=",
-          "english": "decline",
-          "part_of_speech": "名詞",
-          "japanese": "衰退"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1547,
@@ -608,14 +471,7 @@
       "type": "赤",
       "english": "skeleton",
       "japanese": "骨格；骸骨",
-      "related": [
-        {
-          "type": "◇",
-          "english": "skull",
-          "part_of_speech": "名詞",
-          "japanese": "頭蓋骨"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1550,
@@ -634,12 +490,6 @@
           "english": "disgrace",
           "part_of_speech": "名詞",
           "japanese": "不名誉、恥辱"
-        },
-        {
-          "type": "=",
-          "english": "elegance",
-          "part_of_speech": "名詞",
-          "japanese": "優雅さ；気品"
         },
         {
           "type": "=",
@@ -709,14 +559,7 @@
       "type": "赤",
       "english": "tomb",
       "japanese": "墓",
-      "related": [
-        {
-          "type": "◇",
-          "english": "comb",
-          "part_of_speech": "名詞",
-          "japanese": "くし"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1557,
@@ -765,20 +608,7 @@
       "type": "赤",
       "english": "cue",
       "japanese": "合図；手がかり；きっかけ",
-      "related": [
-        {
-          "type": "=",
-          "english": "signal",
-          "part_of_speech": "名詞",
-          "japanese": "合図"
-        },
-        {
-          "type": "=",
-          "english": "hint",
-          "part_of_speech": "名詞",
-          "japanese": "合図"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1562,
@@ -799,14 +629,7 @@
       "type": "赤",
       "english": "commodity",
       "japanese": "商品；日用品",
-      "related": [
-        {
-          "type": "=",
-          "english": "goods",
-          "part_of_speech": "名詞",
-          "japanese": "商品"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1565,
@@ -839,14 +662,7 @@
       "type": "赤",
       "english": "phase",
       "japanese": "段階；時期",
-      "related": [
-        {
-          "type": "=",
-          "english": "stage",
-          "part_of_speech": "名詞",
-          "japanese": "段階"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1567,
@@ -859,12 +675,6 @@
           "english": "theft",
           "part_of_speech": "名詞",
           "japanese": "盗み"
-        },
-        {
-          "type": "◇",
-          "english": "burglar",
-          "part_of_speech": "名詞",
-          "japanese": "強盗"
         }
       ]
     },
@@ -922,34 +732,14 @@
       "type": "赤",
       "english": "incentive",
       "japanese": "はげみ；動機；刺激",
-      "related": [
-        {
-          "type": "=",
-          "english": "motivation",
-          "part_of_speech": "名詞",
-          "japanese": "動機"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1575,
       "type": "赤",
       "english": "bride",
       "japanese": "花嫁",
-      "related": [
-        {
-          "type": "◇",
-          "english": "bachelor",
-          "part_of_speech": "名詞",
-          "japanese": "独身男性；学士"
-        },
-        {
-          "type": "◇",
-          "english": "spouse",
-          "part_of_speech": "名詞",
-          "japanese": "配偶者"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1576,
@@ -976,12 +766,6 @@
           "english": "marginal",
           "part_of_speech": "形容詞",
           "japanese": "端の、重要でない"
-        },
-        {
-          "type": "=",
-          "english": "edge",
-          "part_of_speech": "名詞",
-          "japanese": "ふち"
         },
         {
           "type": "=",
@@ -1059,14 +843,7 @@
       "type": "赤",
       "english": "lightning",
       "japanese": "雷；稲妻",
-      "related": [
-        {
-          "type": "◇",
-          "english": "thunder",
-          "part_of_speech": "名詞",
-          "japanese": "雷鳴"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1585,
@@ -1101,14 +878,7 @@
       "type": "赤",
       "english": "dust",
       "japanese": "ほこり",
-      "related": [
-        {
-          "type": "◇",
-          "english": "dirt",
-          "part_of_speech": "名詞",
-          "japanese": "汚れ；泥、土"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1589,
@@ -1129,14 +899,7 @@
       "type": "赤",
       "english": "diabetes",
       "japanese": "糖尿病",
-      "related": [
-        {
-          "type": "◇",
-          "english": "insulin",
-          "part_of_speech": "名詞",
-          "japanese": "インスリン"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1592,
@@ -1151,12 +914,6 @@
           "japanese": "肥満の、太りすぎの"
         },
         {
-          "type": "◇",
-          "english": "low-fat",
-          "part_of_speech": "形容詞・名詞",
-          "japanese": "低脂肪(の)"
-        },
-        {
           "type": "=",
           "english": "fat",
           "part_of_speech": "形容詞",
@@ -1169,14 +926,7 @@
       "type": "赤",
       "english": "patent",
       "japanese": "特許；～の特許を取る",
-      "related": [
-        {
-          "type": "◇",
-          "english": "copyright",
-          "part_of_speech": "名詞",
-          "japanese": "著作権、版権"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1594,
@@ -1190,14 +940,7 @@
       "type": "赤",
       "english": "Palace",
       "japanese": "宮殿；大邸宅",
-      "related": [
-        {
-          "type": "◇",
-          "english": "mansion",
-          "part_of_speech": "名詞",
-          "japanese": "(豪華な)大邸宅"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1596,
