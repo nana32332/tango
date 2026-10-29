@@ -154,6 +154,9 @@
 
   .type-row { display: flex; gap: 8px; margin-top: 18px; }
   .type-row input { flex: 1; font-size: 1.1rem; padding: 10px 12px; min-width: 0; }
+  .rel-q-base { color: var(--muted); font-size: .9rem; margin-bottom: 10px; }
+  .rel-q-base b { color: var(--text); }
+  .rel-q-pos { display: inline-block; margin-bottom: 6px; }
   .hint { color: var(--muted); font-size: .9rem; margin-top: 8px; font-family: ui-monospace, Consolas, monospace; letter-spacing: .15em; }
   .feedback { margin-top: 14px; padding: 10px 12px; border-radius: 10px; font-weight: 600; }
   .feedback.ok { background: var(--ok-soft); color: var(--ok); }
@@ -210,6 +213,12 @@
         <option value="ja">日 → 英</option>
       </select>
     </label>
+    <label id="typeKindLabel">出題
+      <select id="typeKind">
+        <option value="word">見出し語</option>
+        <option value="related">関連語テスト</option>
+      </select>
+    </label>
     <label><input type="checkbox" id="onlyWeak"> 苦手(★)のみ</label>
     <label><input type="checkbox" id="shuffle" checked> シャッフル</label>
     <label title="発音の音量">🔊
@@ -233,7 +242,7 @@
 
   let data = null;
   let words = [];
-  let state = { set: SETS[0], mode: 'flash', range: 'all', direction: 'en', onlyWeak: false, shuffle: true, volume: 100 };
+  let state = { set: SETS[0], mode: 'flash', range: 'all', direction: 'en', typeKind: 'word', onlyWeak: false, shuffle: true, volume: 100 };
   let progress = { weak: {}, known: {} };
   let session = null;
 
@@ -337,10 +346,35 @@
   function start() {
     $('#stats').style.display = state.mode === 'flash' ? 'none' : '';
     if (state.mode === 'list') { renderList(); return; }
-    const list = pool();
+    let list = pool();
+    if (isRelatedTest()) {
+      list = relatedItems(list);
+      if (!list.length) {
+        app.innerHTML = `<div class="card empty">対象の範囲に関連語がある単語がありません。<br>範囲や「苦手のみ」の設定を確認してください。</div>`;
+        return;
+      }
+    }
     if (!list.length) { emptyView(); return; }
     session = { list, i: 0, correct: 0, misses: [], revealed: false, answered: false };
     render();
+  }
+
+  // ---------- related-word test ----------
+  const isRelatedTest = () => state.mode === 'type' && state.typeKind === 'related';
+  // 見出し語ごとに関連語を本の順で並べ、同じ単語の関連語が連続して出るようにする
+  function relatedItems(baseWords) {
+    return baseWords.flatMap((w) => w.related.map((r, k) => ({
+      number: w.number, english: r.english, japanese: r.japanese, base: w, rel: r, k, total: w.related.length,
+    })));
+  }
+  // 見出し語のまとまりは崩さずに順番だけ入れ替える
+  function shuffleGroups(items) {
+    const groups = [];
+    for (const it of items) {
+      const g = groups[groups.length - 1];
+      if (g && g[0].number === it.number) g.push(it); else groups.push([it]);
+    }
+    return shuffleArr(groups).flat();
   }
 
   function render() {
@@ -466,12 +500,16 @@
   function renderType() {
     const w = session.list[session.i];
     const hint = w.english.split(' ').map((part) => part[0] + '_'.repeat(Math.max(part.length - 1, 0))).join(' ');
+    const question = w.rel ? `
+          <div class="rel-q-base">No.${w.number}　<b>${esc(w.base.english)}</b>　${esc(w.base.japanese)}</div>
+          <div class="rel-q-pos"><span class="rel-mark">${esc(w.rel.type)}</span> <span class="rel-pos">${esc(w.rel.part_of_speech)}</span></div>
+          <div class="prompt ja">${esc(w.japanese)}</div>` : `
+          <div class="prompt ja">${esc(w.japanese)}</div>`;
     app.innerHTML = `
       ${progressBar(session.i, session.list.length)}
-      <div class="meta"><span>No.${w.number}</span><span>${session.i + 1} / ${session.list.length}　正解 ${session.correct}</span></div>
+      <div class="meta"><span>${w.rel ? `関連語 ${w.k + 1} / ${w.total}` : `No.${w.number}`}</span><span>${session.i + 1} / ${session.list.length}　正解 ${session.correct}</span></div>
       <div class="card">
-        <div style="text-align:center">
-          <div class="prompt ja">${esc(w.japanese)}</div>
+        <div style="text-align:center">${question}
           <div class="hint" id="hint" style="visibility:hidden">${esc(hint)}</div>
         </div>
         <form class="type-row" id="typeForm" autocomplete="off">
@@ -500,14 +538,19 @@
     const w = session.list[session.i];
     const ok = value !== null && norm(value) === norm(w.english);
     if (ok) session.correct++; else session.misses.push(w);
-    markResult(w, ok);
+    if (w.rel) {
+      // 関連語を間違えたら見出し語を★苦手に登録する（正解でも「覚えた」にはしない）
+      if (!ok) { progress.weak[w.number] = true; save(); updateStats(); }
+    } else {
+      markResult(w, ok);
+    }
     const input = $('#typeInput');
     input.readOnly = true;
     $('#hintBtn').disabled = true;
     $('#skipBtn').disabled = true;
     $('#typeFeedback').innerHTML = `
       <div class="feedback ${ok ? 'ok' : 'ng'}">${ok ? '正解！' : '正解は'}　${esc(w.english)}${!ok && value ? `<span style="font-weight:400">（あなたの解答: ${esc(value)}）</span>` : ''}</div>
-      ${relatedHTML(w)}
+      ${w.rel ? '' : relatedHTML(w)}
       <div class="actions"><button class="btn primary" id="nextBtn">次へ <kbd>Enter</kbd></button></div>`;
     $('#nextBtn').onclick = next;
     speak(w.english);
@@ -524,8 +567,8 @@
         <div>正答率 ${rate}%</div>
         ${session.misses.length ? `
           <div class="miss-list">
-            <div style="font-weight:700;border:0">間違えた単語（★苦手に登録済み）</div>
-            ${session.misses.map((w) => `<div><b>${esc(w.english)}</b>　${esc(w.japanese)}</div>`).join('')}
+            <div style="font-weight:700;border:0">${isRelatedTest() ? '間違えた関連語（元の単語を★苦手に登録済み）' : '間違えた単語（★苦手に登録済み）'}</div>
+            ${session.misses.map((w) => `<div><b>${esc(w.english)}</b>　${esc(w.japanese)}${w.base ? `<span style="color:var(--muted)">（${esc(w.base.english)}）</span>` : ''}</div>`).join('')}
           </div>` : '<p>全問正解です！</p>'}
         <div class="actions">
           ${session.misses.length ? '<button class="btn bad" id="retryMiss">間違えた単語だけ再挑戦</button>' : ''}
@@ -535,7 +578,8 @@
     $('#restart').onclick = start;
     if (session.misses.length) {
       $('#retryMiss').onclick = () => {
-        const list = state.shuffle ? shuffleArr(session.misses) : session.misses.slice();
+        const misses = session.misses;
+        const list = !state.shuffle ? misses.slice() : misses[0].rel ? shuffleGroups(misses) : shuffleArr(misses);
         session = { list, i: 0, correct: 0, misses: [], revealed: false, answered: false };
         render();
       };
@@ -643,11 +687,13 @@
     $('#direction').value = state.direction;
     $('#onlyWeak').checked = state.onlyWeak;
     $('#shuffle').checked = state.shuffle;
+    $('#typeKind').value = state.typeKind;
 
     rangeSel.onchange = () => { state.range = rangeSel.value; save(); start(); };
     $('#direction').onchange = (e) => { state.direction = e.target.value; save(); start(); };
     $('#onlyWeak').onchange = (e) => { state.onlyWeak = e.target.checked; save(); start(); };
     $('#shuffle').onchange = (e) => { state.shuffle = e.target.checked; save(); start(); };
+    $('#typeKind').onchange = (e) => { state.typeKind = e.target.value; save(); start(); };
 
     const vol = $('#volume');
     vol.value = state.volume;
@@ -660,14 +706,17 @@
       b.onclick = () => {
         state.mode = b.dataset.mode;
         document.querySelectorAll('#tabs button').forEach((x) => x.classList.toggle('active', x === b));
-        $('#direction').closest('label').style.display = state.mode === 'type' || state.mode === 'list' ? 'none' : '';
-        $('#shuffle').closest('label').style.display = state.mode === 'list' ? 'none' : '';
+        updateSettingsVisibility();
         save();
         start();
       };
     });
+    updateSettingsVisibility();
+  }
+  function updateSettingsVisibility() {
     $('#direction').closest('label').style.display = state.mode === 'type' || state.mode === 'list' ? 'none' : '';
     $('#shuffle').closest('label').style.display = state.mode === 'list' ? 'none' : '';
+    $('#typeKindLabel').style.display = state.mode === 'type' ? '' : 'none';
   }
 
   function init(json) {
