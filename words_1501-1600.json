@@ -19,6 +19,18 @@
       "japanese": "ゴミ；がらくた",
       "related": [
         {
+          "type": "◇",
+          "english": "litter",
+          "part_of_speech": "名詞・動詞",
+          "japanese": "ゴミ；一腹の子；散らかす"
+        },
+        {
+          "type": "◇",
+          "english": "scrap",
+          "part_of_speech": "名詞・動詞",
+          "japanese": "断片；くず；残飯；～を廃棄する"
+        },
+        {
           "type": "=",
           "english": "rubbish",
           "part_of_speech": "名詞",
@@ -1032,6 +1044,12 @@
           "english": "obese",
           "part_of_speech": "形容詞",
           "japanese": "肥満の、太りすぎの"
+        },
+        {
+          "type": "◇",
+          "english": "low-fat",
+          "part_of_speech": "形容詞・名詞",
+          "japanese": "低脂肪(の)"
         },
         {
           "type": "=",
