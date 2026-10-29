@@ -844,20 +844,7 @@
       "type": "赤",
       "english": "arithmetic",
       "japanese": "算数",
-      "related": [
-        {
-          "type": "◇",
-          "english": "geometry",
-          "part_of_speech": "名詞",
-          "japanese": "幾何学"
-        },
-        {
-          "type": "◇",
-          "english": "algebra",
-          "part_of_speech": "名詞",
-          "japanese": "代数"
-        }
-      ]
+      "related": []
     },
     {
       "number": 1485,
@@ -983,12 +970,6 @@
       "english": "sword",
       "japanese": "剣",
       "related": [
-        {
-          "type": "◇",
-          "english": "blade",
-          "part_of_speech": "名詞",
-          "japanese": "刃、葉"
-        },
         {
           "type": "◇",
           "english": "shield",
