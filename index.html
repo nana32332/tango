@@ -161,6 +161,16 @@
   .feedback { margin-top: 14px; padding: 10px 12px; border-radius: 10px; font-weight: 600; }
   .feedback.ok { background: var(--ok-soft); color: var(--ok); }
   .feedback.ng { background: var(--ng-soft); color: var(--ng); }
+  .diff { margin-top: 10px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; overflow-x: auto; }
+  .diff-row { display: flex; align-items: center; gap: 10px; padding: 2px 0; }
+  .diff-label { flex: none; width: 3.5em; color: var(--muted); font-size: .78rem; }
+  .diff-chars { font-family: ui-monospace, Consolas, monospace; font-size: 1.15rem; white-space: pre; }
+  .diff-chars span { display: inline-block; min-width: 1ch; text-align: center; border-radius: 3px; }
+  .diff-chars .bad { background: var(--ng-soft); color: var(--ng); font-weight: 700; text-decoration: line-through; }
+  .diff-chars .miss { background: var(--ng-soft); color: var(--ng); font-weight: 700; }
+  .diff-chars .fix { background: var(--ok-soft); color: var(--ok); font-weight: 700; }
+  .diff-chars .gap { color: var(--border); }
+  .diff-note { margin-top: 6px; color: var(--muted); font-size: .8rem; }
 
   .result { text-align: center; }
   .result .score { font-size: 3rem; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
@@ -549,11 +559,62 @@
     $('#hintBtn').disabled = true;
     $('#skipBtn').disabled = true;
     $('#typeFeedback').innerHTML = `
-      <div class="feedback ${ok ? 'ok' : 'ng'}">${ok ? '正解！' : '正解は'}　${esc(w.english)}${!ok && value ? `<span style="font-weight:400">（あなたの解答: ${esc(value)}）</span>` : ''}</div>
+      <div class="feedback ${ok ? 'ok' : 'ng'}">${ok ? '正解！' : '正解は'}　${esc(w.english)}</div>
+      ${!ok && value ? diffHTML(value, w.english) : ''}
       ${w.rel ? '' : relatedHTML(w)}
       <div class="actions"><button class="btn primary" id="nextBtn">次へ <kbd>Enter</kbd></button></div>`;
     $('#nextBtn').onclick = next;
     speak(w.english);
+  }
+
+  // 解答と正解を1文字ずつ並べ、違う所に印をつける（大文字・小文字は区別しない）
+  function diffHTML(value, answer) {
+    const a = [...value.trim().replace(/\s+/g, ' ')];
+    const b = [...answer];
+    const same = (x, y) => norm(x) === norm(y) || (x === ' ' && y === ' ');
+    const L = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0));
+    for (let i = a.length - 1; i >= 0; i--) {
+      for (let j = b.length - 1; j >= 0; j--) {
+        L[i][j] = same(a[i], b[j]) ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+      }
+    }
+    const ops = [];
+    let i = 0, j = 0;
+    while (i < a.length || j < b.length) {
+      if (i < a.length && j < b.length && same(a[i], b[j])) { ops.push({ t: 'same', a: a[i++], b: b[j++] }); }
+      else if (j < b.length && (i >= a.length || L[i][j + 1] >= L[i + 1][j])) { ops.push({ t: 'ins', b: b[j++] }); }
+      else { ops.push({ t: 'del', a: a[i++] }); }
+    }
+    // 「余分な文字」と「足りない文字」が隣り合うときは、書き間違い1文字としてまとめる
+    const cols = [];
+    for (let k = 0; k < ops.length; k++) {
+      const o = ops[k], n = ops[k + 1];
+      if (n && ((o.t === 'del' && n.t === 'ins') || (o.t === 'ins' && n.t === 'del'))) {
+        cols.push({ t: 'sub', a: o.a ?? n.a, b: o.b ?? n.b });
+        k++;
+      } else cols.push(o);
+    }
+    const show = (c) => (c === ' ' ? '␣' : esc(c));
+    const yours = cols.map((c) =>
+      c.t === 'same' ? `<span>${esc(c.a)}</span>` :
+      c.t === 'ins' ? '<span class="miss">_</span>' :
+      `<span class="bad">${show(c.a)}</span>`).join('');
+    const right = cols.map((c) =>
+      c.t === 'same' ? `<span>${esc(c.b)}</span>` :
+      c.t === 'del' ? '<span class="gap">·</span>' :
+      `<span class="fix">${show(c.b)}</span>`).join('');
+    const count = { sub: 0, ins: 0, del: 0 };
+    cols.forEach((c) => { if (c.t !== 'same') count[c.t]++; });
+    const notes = [];
+    if (count.sub) notes.push(`書き間違い ${count.sub}文字`);
+    if (count.ins) notes.push(`足りない ${count.ins}文字`);
+    if (count.del) notes.push(`余分 ${count.del}文字`);
+    return `
+      <div class="diff">
+        <div class="diff-row"><span class="diff-label">あなた</span><span class="diff-chars">${yours}</span></div>
+        <div class="diff-row"><span class="diff-label">正解</span><span class="diff-chars">${right}</span></div>
+        <div class="diff-note">${notes.join('・')}</div>
+      </div>`;
   }
 
   // ---------- result ----------
