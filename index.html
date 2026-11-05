@@ -585,14 +585,16 @@
       else if (j < b.length && (i >= a.length || L[i][j + 1] >= L[i + 1][j])) { ops.push({ t: 'ins', b: b[j++] }); }
       else { ops.push({ t: 'del', a: a[i++] }); }
     }
-    // 「余分な文字」と「足りない文字」が隣り合うときは、書き間違い1文字としてまとめる
+    // 合っている文字の間で「余分な文字」と「足りない文字」が同じ数のときだけ、書き間違いとして1文字ずつ対応させる
     const cols = [];
-    for (let k = 0; k < ops.length; k++) {
-      const o = ops[k], n = ops[k + 1];
-      if (n && ((o.t === 'del' && n.t === 'ins') || (o.t === 'ins' && n.t === 'del'))) {
-        cols.push({ t: 'sub', a: o.a ?? n.a, b: o.b ?? n.b });
-        k++;
-      } else cols.push(o);
+    for (let k = 0; k < ops.length;) {
+      if (ops[k].t === 'same') { cols.push(ops[k++]); continue; }
+      const run = [];
+      while (k < ops.length && ops[k].t !== 'same') run.push(ops[k++]);
+      const dels = run.filter((o) => o.t === 'del');
+      const inss = run.filter((o) => o.t === 'ins');
+      if (dels.length === inss.length) dels.forEach((d, x) => cols.push({ t: 'sub', a: d.a, b: inss[x].b }));
+      else cols.push(...inss, ...dels);
     }
     const show = (c) => (c === ' ' ? '␣' : esc(c));
     const yours = cols.map((c) =>
