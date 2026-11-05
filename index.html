@@ -352,10 +352,53 @@
     app.innerHTML = `<div class="card empty">対象の単語がありません。<br>範囲や「苦手のみ」の設定を確認してください。</div>`;
   }
 
+  // ---------- session save / restore ----------
+  // 1周終わるまでは、タブを移ったりページを開き直したりしても続きから再開できるように保存する
+  const sessionStoreKey = () => `tango-session-${state.set}`;
+  const sessionKey = () => (state.mode === 'type' ? `type-${state.typeKind}` : state.mode);
+  // 出題の条件が変わっていたら保存した続きは使わない
+  const sessionSig = () => JSON.stringify([state.range, state.onlyWeak, state.shuffle, state.mode === 'type' ? '' : state.direction]);
+  const itemId = (it) => (it.rel ? `${it.number}:${it.k}` : String(it.number));
+  function loadSessions() {
+    try { return JSON.parse(localStorage.getItem(sessionStoreKey())) || {}; } catch (e) { return {}; }
+  }
+  function writeSessions(all) {
+    try { localStorage.setItem(sessionStoreKey(), JSON.stringify(all)); } catch (e) {}
+  }
+  function saveSession() {
+    if (!session) return;
+    const all = loadSessions();
+    all[sessionKey()] = {
+      sig: sessionSig(), ids: session.list.map(itemId), misses: session.misses.map(itemId),
+      i: session.i, correct: session.correct, round: session.round || 1, answered: session.answered,
+    };
+    writeSessions(all);
+  }
+  function clearSession() {
+    const all = loadSessions();
+    delete all[sessionKey()];
+    writeSessions(all);
+  }
+  function restoreSession() {
+    const saved = loadSessions()[sessionKey()];
+    if (!saved || saved.sig !== sessionSig()) return null;
+    const byId = new Map();
+    (isRelatedTest() ? relatedItems(words) : words).forEach((it) => byId.set(itemId(it), it));
+    const list = saved.ids.map((id) => byId.get(id));
+    const misses = saved.misses.map((id) => byId.get(id));
+    if (!list.length || list.includes(undefined) || misses.includes(undefined)) return null;
+    // 答えた直後に離れた場合は、その問題は済んだものとして次から始める
+    const i = saved.i + (saved.answered ? 1 : 0);
+    return { list, i, correct: saved.correct, misses, revealed: false, answered: false, round: saved.round };
+  }
+
   // ---------- session start ----------
-  function start() {
+  // fresh が true のときは保存した続きを使わずに最初から始める
+  function start(fresh = false) {
     $('#stats').style.display = state.mode === 'flash' ? 'none' : '';
     if (state.mode === 'list') { renderList(); return; }
+    const restored = fresh ? null : restoreSession();
+    if (restored) { session = restored; render(); return; }
     let list = pool();
     if (isRelatedTest()) {
       list = relatedItems(list);
@@ -394,7 +437,8 @@
       session.round = (session.round || 1) + 1;
       if (state.shuffle) session.list = shuffleArr(session.list);
     }
-    if (session.i >= session.list.length) { renderResult(); return; }
+    if (session.i >= session.list.length) { clearSession(); renderResult(); return; }
+    saveSession();
     if (state.mode === 'flash') renderFlash();
     else if (state.mode === 'quiz') renderQuiz();
     else if (state.mode === 'type') renderType();
@@ -451,6 +495,7 @@
     if (session.i === 0) return;
     session.i--;
     session.revealed = false;
+    saveSession();
     renderFlash();
   }
 
@@ -493,6 +538,7 @@
     });
     if (ok) session.correct++; else session.misses.push(w);
     markResult(w, ok);
+    saveSession();
     $('#quizFeedback').innerHTML = `
       <div class="feedback ${ok ? 'ok' : 'ng'}">${ok ? '正解！' : '不正解'}　${esc(w.english)} ＝ ${esc(w.japanese)}</div>
       ${relatedHTML(w)}
@@ -554,6 +600,7 @@
     } else {
       markResult(w, ok);
     }
+    saveSession();
     const input = $('#typeInput');
     input.readOnly = true;
     $('#hintBtn').disabled = true;
@@ -638,7 +685,7 @@
           <button class="btn primary" id="restart">もう一度</button>
         </div>
       </div>`;
-    $('#restart').onclick = start;
+    $('#restart').onclick = () => start(true);
     if (session.misses.length) {
       $('#retryMiss').onclick = () => {
         const misses = session.misses;
@@ -752,10 +799,10 @@
     $('#shuffle').checked = state.shuffle;
     $('#typeKind').value = state.typeKind;
 
-    rangeSel.onchange = () => { state.range = rangeSel.value; save(); start(); };
-    $('#direction').onchange = (e) => { state.direction = e.target.value; save(); start(); };
-    $('#onlyWeak').onchange = (e) => { state.onlyWeak = e.target.checked; save(); start(); };
-    $('#shuffle').onchange = (e) => { state.shuffle = e.target.checked; save(); start(); };
+    rangeSel.onchange = () => { state.range = rangeSel.value; save(); start(true); };
+    $('#direction').onchange = (e) => { state.direction = e.target.value; save(); start(true); };
+    $('#onlyWeak').onchange = (e) => { state.onlyWeak = e.target.checked; save(); start(true); };
+    $('#shuffle').onchange = (e) => { state.shuffle = e.target.checked; save(); start(true); };
     $('#typeKind').onchange = (e) => { state.typeKind = e.target.value; save(); start(); };
 
     const vol = $('#volume');
