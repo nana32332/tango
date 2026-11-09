@@ -223,6 +223,7 @@
         <option value="ja">日 → 英</option>
       </select>
     </label>
+    <button class="btn small" id="resetRound" type="button" title="今の周を最初からやり直す（シャッフルがオンなら並べ直す）">↺ リセット</button>
     <label id="typeKindLabel">出題
       <select id="typeKind">
         <option value="word">見出し語</option>
@@ -403,12 +404,21 @@
     if (isRelatedTest()) {
       list = relatedItems(list);
       if (!list.length) {
+        session = null;
         app.innerHTML = `<div class="card empty">対象の範囲に関連語がある単語がありません。<br>範囲や「苦手のみ」の設定を確認してください。</div>`;
         return;
       }
     }
-    if (!list.length) { emptyView(); return; }
+    if (!list.length) { session = null; emptyView(); return; }
     session = { list, i: 0, correct: 0, misses: [], revealed: false, answered: false };
+    render();
+  }
+
+  // 今の周を最初からやり直す。シャッフルがオンなら並べ直す。フラッシュカードの周回数はそのまま
+  function resetRound() {
+    if (!session || state.mode === 'list') return;
+    const list = !state.shuffle ? session.list : session.list[0].rel ? shuffleGroups(session.list) : shuffleArr(session.list);
+    session = { list, i: 0, correct: 0, misses: [], revealed: false, answered: false, round: session.round };
     render();
   }
 
@@ -804,6 +814,7 @@
     $('#onlyWeak').onchange = (e) => { state.onlyWeak = e.target.checked; save(); start(true); };
     $('#shuffle').onchange = (e) => { state.shuffle = e.target.checked; save(); start(true); };
     $('#typeKind').onchange = (e) => { state.typeKind = e.target.value; save(); start(); };
+    $('#resetRound').onclick = (e) => { resetRound(); e.currentTarget.blur(); };
 
     const vol = $('#volume');
     vol.value = state.volume;
@@ -827,6 +838,7 @@
     $('#direction').closest('label').style.display = state.mode === 'type' || state.mode === 'list' ? 'none' : '';
     $('#shuffle').closest('label').style.display = state.mode === 'list' ? 'none' : '';
     $('#typeKindLabel').style.display = state.mode === 'type' ? '' : 'none';
+    $('#resetRound').style.display = state.mode === 'list' ? 'none' : '';
   }
 
   function init(json) {
