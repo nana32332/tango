@@ -124,6 +124,10 @@
   .example { margin-top: 10px; color: var(--muted); font-size: .95rem; line-height: 1.5; }
   .example.hidden { visibility: hidden; }
   .example mark { background: var(--accent-soft); color: var(--accent); font-weight: 700; border-radius: 3px; padding: 0 2px; }
+  .prompt.ex-prompt { font-size: clamp(1.3rem, 5.5vw, 1.9rem); line-height: 1.4; }
+  .prompt mark, .ex-answer mark { background: var(--accent-soft); color: var(--accent); border-radius: 4px; padding: 0 3px; }
+  .ex-answer { font-size: 1.25rem; font-weight: 700; line-height: 1.4; }
+  .sub { margin-top: 8px; color: var(--muted); font-size: .95rem; font-weight: 400; }
   table.list .ex { color: var(--muted); font-size: .82rem; margin-top: 4px; }
   table.list .ex mark { background: var(--accent-soft); color: var(--accent); font-weight: 700; border-radius: 3px; padding: 0 1px; }
   .related { margin-top: 16px; width: 100%; text-align: left; border-top: 1px dashed var(--border); padding-top: 12px; font-size: .9rem; }
@@ -321,6 +325,11 @@
     if (!w.example || !w.example[lang]) return '';
     return `<div class="example ${extraClass}">${exText(w.example[lang])}</div>`;
   }
+  // 例文がある単語の問題文：英→日は英語の例文だけ、日→英は日本語の例文と、その下に小さく意味
+  function examplePromptHTML(w, en) {
+    if (en) return `<div class="prompt ex-prompt">${exText(w.example.en)}</div>`;
+    return `<div class="prompt ja ex-prompt">${exText(w.example.ja)}</div><div class="sub">${esc(w.japanese)}</div>`;
+  }
   function exampleBothHTML(w) {
     if (!w.example) return '';
     return `<div class="example">${exText(w.example.en)}<br>${exText(w.example.ja)}</div>`;
@@ -488,10 +497,14 @@
       ${progressBar(session.i, session.list.length)}
       <div class="meta"><span>No.${w.number}</span><span>${session.round > 1 ? `${session.round}周目　` : ''}${session.i + 1} / ${session.list.length}</span></div>
       <div class="card flash" id="flashCard">
+        ${w.example ? `
+        ${examplePromptHTML(w, en)}
+        <div class="answer ${r ? '' : 'hidden'}">
+          <div class="ex-answer">${exText(en ? w.example.ja : w.example.en)}</div>
+          ${en ? `<div class="sub">${esc(w.japanese)}</div>` : ''}
+        </div>` : `
         <div class="prompt ${en ? '' : 'ja'}">${esc(front)}</div>
-        ${exampleHTML(w, en ? 'en' : 'ja')}
-        <div class="answer ${r ? '' : 'hidden'}">${esc(back)}</div>
-        ${exampleHTML(w, en ? 'ja' : 'en', r ? '' : 'hidden')}
+        <div class="answer ${r ? '' : 'hidden'}">${esc(back)}</div>`}
         ${r ? relatedHTML(w) : '<div class="tap-hint">タップ / <kbd>Space</kbd> で答えを表示</div>'}
       </div>
       <div class="actions">
@@ -542,10 +555,9 @@
       <div class="meta"><span>No.${w.number}</span><span>${session.i + 1} / ${session.list.length}　正解 ${session.correct}</span></div>
       <div class="card">
         <div style="display:flex;align-items:center;justify-content:center;gap:8px;text-align:center">
-          <div class="prompt ${en ? '' : 'ja'}">${esc(en ? w.english : w.japanese)}</div>
+          ${w.example ? `<div>${examplePromptHTML(w, en)}</div>` : `<div class="prompt ${en ? '' : 'ja'}">${esc(en ? w.english : w.japanese)}</div>`}
           ${en ? '<button class="icon-btn" id="speakBtn" title="発音">🔊</button>' : ''}
         </div>
-        <div style="text-align:center">${exampleHTML(w, en ? 'en' : 'ja')}</div>
         <div class="choices">
           ${choices.map((c, k) => `<button class="choice" data-n="${c.number}"><span class="key">${k + 1}</span>${esc(en ? c.japanese : c.english)}</button>`).join('')}
         </div>
