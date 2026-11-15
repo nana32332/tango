@@ -1,0 +1,745 @@
+{
+  "source": "MINIMAL PHRASES Stage 4 (2) 名詞 p.293-299",
+  "range": [
+    1801,
+    1900
+  ],
+  "entries": [
+    {
+      "number": 1801,
+      "type": "赤",
+      "english": "probe",
+      "japanese": "探査機；調査；～を調査する",
+      "example": {
+        "en": "a space {probe}",
+        "ja": "宇宙{探査機}"
+      },
+      "related": []
+    },
+    {
+      "number": 1802,
+      "type": "赤",
+      "english": "expertise",
+      "japanese": "専門知識",
+      "example": {
+        "en": "{expertise} in programming",
+        "ja": "プログラミングの{専門知識}"
+      },
+      "related": []
+    },
+    {
+      "number": 1803,
+      "type": "赤",
+      "english": "scorn",
+      "japanese": "軽蔑；～を軽蔑する",
+      "example": {
+        "en": "a look of {scorn}",
+        "ja": "{軽蔑}のまなざし"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "scornful",
+          "part_of_speech": "形容詞",
+          "japanese": "軽蔑した、あなどった"
+        },
+        {
+          "type": "=",
+          "english": "despise",
+          "part_of_speech": "動詞",
+          "japanese": "～を軽蔑する"
+        }
+      ]
+    },
+    {
+      "number": 1804,
+      "type": "赤",
+      "english": "prophet",
+      "japanese": "預言者；予言者",
+      "example": {
+        "en": "the {prophet}s of the Bible",
+        "ja": "聖書の{預言者}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "prophecy",
+          "part_of_speech": "名詞",
+          "japanese": "予言"
+        }
+      ]
+    },
+    {
+      "number": 1805,
+      "type": "赤",
+      "english": "breeze",
+      "japanese": "そよ風",
+      "example": {
+        "en": "a cool {breeze} from the sea",
+        "ja": "海からの涼しい{そよ風}"
+      },
+      "related": []
+    },
+    {
+      "number": 1806,
+      "type": "赤",
+      "english": "sin",
+      "japanese": "罪",
+      "example": {
+        "en": "punishment for {sin}",
+        "ja": "{罪}に対する罰"
+      },
+      "related": []
+    },
+    {
+      "number": 1807,
+      "type": "赤",
+      "english": "surge",
+      "japanese": "急増；(感情などの)高まり；殺到する",
+      "example": {
+        "en": "a {surge} in blood sugar",
+        "ja": "血糖の{急増}"
+      },
+      "related": []
+    },
+    {
+      "number": 1808,
+      "type": "赤",
+      "english": "complement",
+      "japanese": "補うもの；補完するもの、補語；～を補う",
+      "example": {
+        "en": "a {complement} to medical treatment",
+        "ja": "医療を{補うもの}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "complementary",
+          "part_of_speech": "形容詞",
+          "japanese": "補完的な、代替的な"
+        }
+      ]
+    },
+    {
+      "number": 1809,
+      "type": "赤",
+      "english": "queue",
+      "japanese": "列；列を作って待つ",
+      "example": {
+        "en": "wait in a {queue}",
+        "ja": "一{列}で待つ"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "wait in line",
+          "part_of_speech": "動詞",
+          "japanese": "列を作って待つ"
+        }
+      ]
+    },
+    {
+      "number": 1810,
+      "type": "赤",
+      "english": "stake",
+      "japanese": "賭け金；出資、(利害)関係；(金)を賭ける",
+      "example": {
+        "en": "a high-{stake}s poker game",
+        "ja": "{賭け金}の高いポーカー"
+      },
+      "related": []
+    },
+    {
+      "number": 1811,
+      "type": "赤",
+      "english": "ambassador",
+      "japanese": "大使",
+      "example": {
+        "en": "the French {ambassador} to Japan",
+        "ja": "駐日フランス{大使}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "embassy",
+          "part_of_speech": "名詞",
+          "japanese": "大使館"
+        }
+      ]
+    },
+    {
+      "number": 1812,
+      "type": "赤",
+      "english": "jury",
+      "japanese": "陪審員(団)",
+      "example": {
+        "en": "the judge and {jury}",
+        "ja": "裁判官と{陪審員}(団)"
+      },
+      "related": []
+    },
+    {
+      "number": 1813,
+      "type": "赤",
+      "english": "cluster",
+      "japanese": "集団；群れ、一団",
+      "example": {
+        "en": "a {cluster} of neurons",
+        "ja": "ニューロンの{集団}"
+      },
+      "related": []
+    },
+    {
+      "number": 1814,
+      "type": "赤",
+      "english": "lump",
+      "japanese": "こぶ；しこり；固まり",
+      "example": {
+        "en": "a {lump} on the head",
+        "ja": "頭の{こぶ}"
+      },
+      "related": []
+    },
+    {
+      "number": 1815,
+      "type": "赤",
+      "english": "meadow",
+      "japanese": "牧草地",
+      "example": {
+        "en": "the green {meadow}",
+        "ja": "緑の{牧草地}"
+      },
+      "related": []
+    },
+    {
+      "number": 1816,
+      "type": "赤",
+      "english": "feat",
+      "japanese": "偉業；はなれわざ",
+      "example": {
+        "en": "accomplish a remarkable {feat}",
+        "ja": "すばらしい{偉業}をなしとげる"
+      },
+      "related": []
+    },
+    {
+      "number": 1817,
+      "type": "赤",
+      "english": "temperament",
+      "japanese": "気質",
+      "example": {
+        "en": "artistic {temperament}",
+        "ja": "芸術的な{気質}"
+      },
+      "related": []
+    },
+    {
+      "number": 1818,
+      "type": "赤",
+      "english": "chill",
+      "japanese": "寒気；～を冷やす",
+      "example": {
+        "en": "feel a {chill}",
+        "ja": "{寒気}を感じる"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "chilly",
+          "part_of_speech": "形容詞",
+          "japanese": "肌寒い"
+        }
+      ]
+    },
+    {
+      "number": 1819,
+      "type": "赤",
+      "english": "appliance",
+      "japanese": "器具",
+      "example": {
+        "en": "electrical {appliance}s",
+        "ja": "電気{器具}"
+      },
+      "related": []
+    },
+    {
+      "number": 1820,
+      "type": "赤",
+      "english": "predecessor",
+      "japanese": "前任；以前にあったもの[人]",
+      "example": {
+        "en": "his {predecessor} as manager",
+        "ja": "彼の{前任}の経営者"
+      },
+      "related": []
+    },
+    {
+      "number": 1821,
+      "type": "赤",
+      "english": "entity",
+      "japanese": "存在",
+      "example": {
+        "en": "a child as a separate {entity}",
+        "ja": "独立した{存在}としての子供"
+      },
+      "related": []
+    },
+    {
+      "number": 1822,
+      "type": "赤",
+      "english": "hospitality",
+      "japanese": "もてなし；歓待、接客(の)",
+      "example": {
+        "en": "receive warm {hospitality}",
+        "ja": "あたたかい{もてなし}を受ける"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "hospitable",
+          "part_of_speech": "形容詞",
+          "japanese": "心あたたかい；(環境が)生存に適した"
+        }
+      ]
+    },
+    {
+      "number": 1823,
+      "type": "赤",
+      "english": "narrative",
+      "japanese": "話；物語",
+      "example": {
+        "en": "a {narrative} of his journey",
+        "ja": "彼の旅行の{話}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "narration",
+          "part_of_speech": "名詞",
+          "japanese": "語り"
+        },
+        {
+          "type": "=",
+          "english": "story",
+          "part_of_speech": "名詞",
+          "japanese": "物語"
+        }
+      ]
+    },
+    {
+      "number": 1824,
+      "type": "赤",
+      "english": "segment",
+      "japanese": "部分；区分、区切り",
+      "example": {
+        "en": "a small {segment} of the population",
+        "ja": "住民のほんの一{部分}"
+      },
+      "related": []
+    },
+    {
+      "number": 1825,
+      "type": "赤",
+      "english": "catastrophe",
+      "japanese": "大災害；破局、大惨事",
+      "example": {
+        "en": "prevent a {catastrophe}",
+        "ja": "{大災害}を防止する"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "catastrophic",
+          "part_of_speech": "形容詞",
+          "japanese": "壊滅的な"
+        },
+        {
+          "type": "=",
+          "english": "disaster",
+          "part_of_speech": "名詞",
+          "japanese": "大惨事"
+        }
+      ]
+    },
+    {
+      "number": 1826,
+      "type": "赤",
+      "english": "monarch",
+      "japanese": "君主",
+      "example": {
+        "en": "the British {monarch}",
+        "ja": "イギリスの{君主}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "monarchy",
+          "part_of_speech": "名詞",
+          "japanese": "君主政治"
+        }
+      ]
+    },
+    {
+      "number": 1827,
+      "type": "赤",
+      "english": "constraint",
+      "japanese": "制約；束縛",
+      "example": {
+        "en": "due to time {constraint}s",
+        "ja": "時間的{制約}があるので"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "constrain",
+          "part_of_speech": "動詞",
+          "japanese": "～を束縛する、～に強いる"
+        }
+      ]
+    },
+    {
+      "number": 1828,
+      "type": "赤",
+      "english": "amendment",
+      "japanese": "改正；修正案、修正条項",
+      "example": {
+        "en": "an {amendment} to the law",
+        "ja": "法律の{改正}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "amend",
+          "part_of_speech": "動詞",
+          "japanese": "～を改正する、修正する"
+        }
+      ]
+    },
+    {
+      "number": 1829,
+      "type": "赤",
+      "english": "cosmos",
+      "japanese": "宇宙",
+      "example": {
+        "en": "the structure of the {cosmos}",
+        "ja": "{宇宙}の構造"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "cosmic",
+          "part_of_speech": "形容詞",
+          "japanese": "宇宙の"
+        }
+      ]
+    },
+    {
+      "number": 1830,
+      "type": "赤",
+      "english": "aisle",
+      "japanese": "通路",
+      "example": {
+        "en": "walk down the {aisle}",
+        "ja": "{通路}を歩く"
+      },
+      "related": []
+    },
+    {
+      "number": 1831,
+      "type": "赤",
+      "english": "hierarchy",
+      "japanese": "階級制度；ピラミッド型序列、ヒエラルキー",
+      "example": {
+        "en": "the top of the {hierarchy}",
+        "ja": "{階級制度}の頂点"
+      },
+      "related": []
+    },
+    {
+      "number": 1832,
+      "type": "赤",
+      "english": "toll",
+      "japanese": "通行料；使用料",
+      "example": {
+        "en": "an expressway {toll}",
+        "ja": "高速道路の{通行料}"
+      },
+      "related": []
+    },
+    {
+      "number": 1833,
+      "type": "赤",
+      "english": "transaction",
+      "japanese": "取引",
+      "example": {
+        "en": "a {transaction} with the company",
+        "ja": "その会社との{取引}"
+      },
+      "related": []
+    },
+    {
+      "number": 1834,
+      "type": "赤",
+      "english": "burglar",
+      "japanese": "強盗",
+      "example": {
+        "en": "A {burglar} broke into the house.",
+        "ja": "その家に{強盗}が入った"
+      },
+      "related": []
+    },
+    {
+      "number": 1835,
+      "type": "赤",
+      "english": "tyranny",
+      "japanese": "圧政",
+      "example": {
+        "en": "put up with {tyranny}",
+        "ja": "{圧政}に耐える"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "tyrant",
+          "part_of_speech": "名詞",
+          "japanese": "暴君、独裁者"
+        }
+      ]
+    },
+    {
+      "number": 1836,
+      "type": "赤",
+      "english": "parasite",
+      "japanese": "寄生生物",
+      "example": {
+        "en": "an animal {parasite}",
+        "ja": "動物{寄生生物}"
+      },
+      "related": []
+    },
+    {
+      "number": 1837,
+      "type": "赤",
+      "english": "intuition",
+      "japanese": "直感；勘",
+      "example": {
+        "en": "women's {intuition}",
+        "ja": "女の{直感}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "intuitive",
+          "part_of_speech": "形容詞",
+          "japanese": "直感的な"
+        }
+      ]
+    },
+    {
+      "number": 1838,
+      "type": "赤",
+      "english": "communist",
+      "japanese": "共産主義の；共産主義者",
+      "example": {
+        "en": "former {communist} countries",
+        "ja": "元{共産主義の}国々"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "communism",
+          "part_of_speech": "名詞",
+          "japanese": "共産主義"
+        }
+      ]
+    },
+    {
+      "number": 1839,
+      "type": "赤",
+      "english": "legacy",
+      "japanese": "遺産",
+      "example": {
+        "en": "a {legacy} of the Renaissance",
+        "ja": "ルネサンスの{遺産}"
+      },
+      "related": []
+    },
+    {
+      "number": 1840,
+      "type": "赤",
+      "english": "vein",
+      "japanese": "静脈",
+      "example": {
+        "en": "the {vein}s in the forehead",
+        "ja": "額の{静脈}(青筋)"
+      },
+      "related": []
+    },
+    {
+      "number": 1841,
+      "type": "赤",
+      "english": "discourse",
+      "japanese": "論説；談話、演説",
+      "example": {
+        "en": "a {discourse} on politics",
+        "ja": "政治についての{論説}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "speech",
+          "part_of_speech": "名詞",
+          "japanese": "談話、演説"
+        },
+        {
+          "type": "=",
+          "english": "discussion",
+          "part_of_speech": "名詞",
+          "japanese": "談話、演説"
+        }
+      ]
+    },
+    {
+      "number": 1842,
+      "type": "赤",
+      "english": "dairy",
+      "japanese": "乳；酪農",
+      "example": {
+        "en": "{dairy} products",
+        "ja": "{乳}製品"
+      },
+      "related": []
+    },
+    {
+      "number": 1843,
+      "type": "赤",
+      "english": "artifact",
+      "japanese": "工芸品；人工のもの、遺物",
+      "example": {
+        "en": "Asian art and {artifact}s",
+        "ja": "アジアの美術と{工芸品}"
+      },
+      "related": []
+    },
+    {
+      "number": 1844,
+      "type": "赤",
+      "english": "outlet",
+      "japanese": "はけ口；(販売)店",
+      "example": {
+        "en": "an {outlet} for frustration",
+        "ja": "欲求不満の{はけ口}"
+      },
+      "related": []
+    },
+    {
+      "number": 1845,
+      "type": "赤",
+      "english": "apprehension",
+      "japanese": "不安；理解；逮捕",
+      "example": {
+        "en": "watch with {apprehension}",
+        "ja": "{不安}そうに見つめる"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "apprehend",
+          "part_of_speech": "動詞",
+          "japanese": "～を理解する；～を逮捕する"
+        }
+      ]
+    },
+    {
+      "number": 1846,
+      "type": "赤",
+      "english": "melancholy",
+      "japanese": "憂うつ；憂うつな",
+      "example": {
+        "en": "a mood of {melancholy}",
+        "ja": "{憂うつ}な気分"
+      },
+      "related": []
+    },
+    {
+      "number": 1847,
+      "type": "赤",
+      "english": "novelty",
+      "japanese": "目新しさ",
+      "example": {
+        "en": "the quest for {novelty}",
+        "ja": "{目新しさ}の追求"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "novel",
+          "part_of_speech": "名詞・形容詞",
+          "japanese": "小説；新奇な"
+        }
+      ]
+    },
+    {
+      "number": 1848,
+      "type": "赤",
+      "english": "specimen",
+      "japanese": "標本",
+      "example": {
+        "en": "a {specimen} of a rare plant",
+        "ja": "珍しい植物の{標本}"
+      },
+      "related": []
+    },
+    {
+      "number": 1849,
+      "type": "赤",
+      "english": "hygiene",
+      "japanese": "衛生；衛生学",
+      "example": {
+        "en": "good {hygiene} practices",
+        "ja": "よい{衛生}習慣"
+      },
+      "related": []
+    },
+    {
+      "number": 1850,
+      "type": "赤",
+      "english": "tactics",
+      "japanese": "戦術；戦略",
+      "example": {
+        "en": "use guerrilla {tactics}",
+        "ja": "ゲリラ{戦術}を使う"
+      },
+      "related": []
+    },
+    {
+      "number": 1851,
+      "type": "赤",
+      "english": "monopoly",
+      "japanese": "独占；専売(権)",
+      "example": {
+        "en": "a {monopoly} on the tea market",
+        "ja": "茶の市場の{独占}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "monopolize",
+          "part_of_speech": "動詞",
+          "japanese": "～を独占する"
+        }
+      ]
+    },
+    {
+      "number": 1852,
+      "type": "赤",
+      "english": "token",
+      "japanese": "印",
+      "example": {
+        "en": "as a {token} of our friendship",
+        "ja": "我々の友情の{印}として"
+      },
+      "related": []
+    }
+  ]
+}

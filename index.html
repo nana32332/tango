@@ -121,6 +121,11 @@
   .answer.hidden { visibility: hidden; }
   .tap-hint { margin-top: 18px; color: var(--muted); font-size: .8rem; }
 
+  .example { margin-top: 10px; color: var(--muted); font-size: .95rem; line-height: 1.5; }
+  .example.hidden { visibility: hidden; }
+  .example mark { background: var(--accent-soft); color: var(--accent); font-weight: 700; border-radius: 3px; padding: 0 2px; }
+  table.list .ex { color: var(--muted); font-size: .82rem; margin-top: 4px; }
+  table.list .ex mark { background: var(--accent-soft); color: var(--accent); font-weight: 700; border-radius: 3px; padding: 0 1px; }
   .related { margin-top: 16px; width: 100%; text-align: left; border-top: 1px dashed var(--border); padding-top: 12px; font-size: .9rem; }
   .related div { display: flex; gap: 8px; padding: 2px 0; flex-wrap: wrap; }
   .rel-mark { color: var(--accent); font-weight: 700; width: 1em; flex: none; }
@@ -245,7 +250,7 @@
 <script>
 (() => {
   // 単語セットを増やすときはここに追加する
-  const SETS = ['1301-1400', '1401-1500', '1501-1600'];
+  const SETS = ['1301-1400', '1401-1500', '1501-1600', '1801-1900'];
   const SETTINGS_KEY = 'tango-settings';
   const dataUrl = (set) => `words_${set}.json`;
   // 学習記録はセットごとに保存（1301-1400 は以前からのキーをそのまま使う）
@@ -308,6 +313,17 @@
       u.rate = 0.9;
       speechSynthesis.speak(u);
     } catch (e) {}
+  }
+
+  // 例文の {…} の部分（見出し語に当たる所）をハイライトする。例文がない単語は空
+  const exText = (text) => esc(text).replace(/\{(.*?)\}/g, '<mark>$1</mark>');
+  function exampleHTML(w, lang, extraClass = '') {
+    if (!w.example || !w.example[lang]) return '';
+    return `<div class="example ${extraClass}">${exText(w.example[lang])}</div>`;
+  }
+  function exampleBothHTML(w) {
+    if (!w.example) return '';
+    return `<div class="example">${exText(w.example.en)}<br>${exText(w.example.ja)}</div>`;
   }
 
   function relatedHTML(w) {
@@ -473,7 +489,9 @@
       <div class="meta"><span>No.${w.number}</span><span>${session.round > 1 ? `${session.round}周目　` : ''}${session.i + 1} / ${session.list.length}</span></div>
       <div class="card flash" id="flashCard">
         <div class="prompt ${en ? '' : 'ja'}">${esc(front)}</div>
+        ${exampleHTML(w, en ? 'en' : 'ja')}
         <div class="answer ${r ? '' : 'hidden'}">${esc(back)}</div>
+        ${exampleHTML(w, en ? 'ja' : 'en', r ? '' : 'hidden')}
         ${r ? relatedHTML(w) : '<div class="tap-hint">タップ / <kbd>Space</kbd> で答えを表示</div>'}
       </div>
       <div class="actions">
@@ -527,6 +545,7 @@
           <div class="prompt ${en ? '' : 'ja'}">${esc(en ? w.english : w.japanese)}</div>
           ${en ? '<button class="icon-btn" id="speakBtn" title="発音">🔊</button>' : ''}
         </div>
+        <div style="text-align:center">${exampleHTML(w, en ? 'en' : 'ja')}</div>
         <div class="choices">
           ${choices.map((c, k) => `<button class="choice" data-n="${c.number}"><span class="key">${k + 1}</span>${esc(en ? c.japanese : c.english)}</button>`).join('')}
         </div>
@@ -551,6 +570,7 @@
     saveSession();
     $('#quizFeedback').innerHTML = `
       <div class="feedback ${ok ? 'ok' : 'ng'}">${ok ? '正解！' : '不正解'}　${esc(w.english)} ＝ ${esc(w.japanese)}</div>
+      ${exampleBothHTML(w)}
       ${relatedHTML(w)}
       <div class="actions"><button class="btn primary" id="nextBtn">次へ <kbd>Enter</kbd></button></div>`;
     $('#nextBtn').onclick = quizNext;
@@ -570,7 +590,8 @@
           <div class="rel-q-base">No.${w.number}　<b>${esc(w.base.english)}</b>　${esc(w.base.japanese)}</div>
           <div class="rel-q-pos"><span class="rel-mark">${esc(w.rel.type)}</span> <span class="rel-pos">${esc(w.rel.part_of_speech)}</span></div>
           <div class="prompt ja">${esc(w.japanese)}</div>` : `
-          <div class="prompt ja">${esc(w.japanese)}</div>`;
+          <div class="prompt ja">${esc(w.japanese)}</div>
+          ${exampleHTML(w, 'ja')}`;
     app.innerHTML = `
       ${progressBar(session.i, session.list.length)}
       <div class="meta"><span>${w.rel ? `関連語 ${w.k + 1} / ${w.total}` : `No.${w.number}`}</span><span>${session.i + 1} / ${session.list.length}　正解 ${session.correct}</span></div>
@@ -618,6 +639,7 @@
     $('#typeFeedback').innerHTML = `
       <div class="feedback ${ok ? 'ok' : 'ng'}">${ok ? '正解！' : '正解は'}　${esc(w.english)}</div>
       ${!ok && value ? diffHTML(value, w.english) : ''}
+      ${w.rel ? '' : exampleBothHTML(w)}
       ${w.rel ? '' : relatedHTML(w)}
       <div class="actions"><button class="btn primary" id="nextBtn">次へ <kbd>Enter</kbd></button></div>`;
     $('#nextBtn').onclick = next;
@@ -724,7 +746,7 @@
       <tr>
         <td class="num">${w.number}</td>
         <td class="en">${esc(w.english)} <button class="icon-btn" data-speak="${esc(w.english)}" title="発音">🔊</button></td>
-        <td>${esc(w.japanese)}${w.related.length ? `<div class="rel">${w.related.map((r) => `${esc(r.type)} ${esc(r.english)}（${esc(r.part_of_speech)}）${esc(r.japanese)}`).join('<br>')}</div>` : ''}</td>
+        <td>${esc(w.japanese)}${w.example ? `<div class="ex">${exText(w.example.en)}<br>${exText(w.example.ja)}</div>` : ''}${w.related.length ? `<div class="rel">${w.related.map((r) => `${esc(r.type)} ${esc(r.english)}（${esc(r.part_of_speech)}）${esc(r.japanese)}`).join('<br>')}</div>` : ''}</td>
         <td class="st"><button class="star ${progress.weak[w.number] ? 'on' : ''}" data-star="${w.number}" title="苦手に登録/解除">★</button></td>
       </tr>`).join('');
     app.innerHTML = `
