@@ -271,7 +271,14 @@
         "en": "his {predecessor} as manager",
         "ja": "彼の{前任}の経営者"
       },
-      "related": []
+      "related": [
+        {
+          "type": "⇔",
+          "english": "successor",
+          "part_of_speech": "名詞",
+          "japanese": "後任者；相続者"
+        }
+      ]
     },
     {
       "number": 1821,

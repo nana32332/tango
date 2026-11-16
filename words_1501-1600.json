@@ -766,6 +766,12 @@
           "english": "set off",
           "part_of_speech": "動詞",
           "japanese": "出発する"
+        },
+        {
+          "type": "⇔",
+          "english": "arrival",
+          "part_of_speech": "名詞",
+          "japanese": "到着"
         }
       ]
     },
