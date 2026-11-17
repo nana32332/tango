@@ -1,5 +1,5 @@
 {
-  "source": "MINIMAL PHRASES Stage 4 (2) 名詞 p.293-299",
+  "source": "MINIMAL PHRASES Stage 4 (2) 名詞 p.293-305",
   "range": [
     1801,
     1900
@@ -747,6 +747,663 @@
         "ja": "我々の友情の{印}として"
       },
       "related": []
+    },
+    {
+      "number": 1853,
+      "type": "赤",
+      "english": "aristocracy",
+      "japanese": "貴族階級；貴族政治",
+      "example": {
+        "en": "the English {aristocracy}",
+        "ja": "イギリスの{貴族階級}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "aristocrat",
+          "part_of_speech": "名詞",
+          "japanese": "貴族(の1人)"
+        },
+        {
+          "type": "◇",
+          "english": "aristocratic",
+          "part_of_speech": "形容詞",
+          "japanese": "貴族の"
+        }
+      ]
+    },
+    {
+      "number": 1854,
+      "type": "赤",
+      "english": "revenge",
+      "japanese": "復讐",
+      "example": {
+        "en": "take {revenge} on an enemy",
+        "ja": "敵に{復讐}する"
+      },
+      "related": []
+    },
+    {
+      "number": 1855,
+      "type": "赤",
+      "english": "activist",
+      "japanese": "活動家",
+      "example": {
+        "en": "a human rights {activist}",
+        "ja": "人権{活動家}"
+      },
+      "related": []
+    },
+    {
+      "number": 1856,
+      "type": "赤",
+      "english": "rhetoric",
+      "japanese": "美辞麗句",
+      "example": {
+        "en": "empty {rhetoric}",
+        "ja": "中身のない{美辞麗句}"
+      },
+      "related": []
+    },
+    {
+      "number": 1857,
+      "type": "赤",
+      "english": "entrepreneur",
+      "japanese": "起業家",
+      "example": {
+        "en": "a successful {entrepreneur}",
+        "ja": "成功した{起業家}"
+      },
+      "related": []
+    },
+    {
+      "number": 1858,
+      "type": "赤",
+      "english": "census",
+      "japanese": "国勢調査",
+      "example": {
+        "en": "take a {census} every ten years",
+        "ja": "10年毎に{国勢調査}をおこなう"
+      },
+      "related": []
+    },
+    {
+      "number": 1859,
+      "type": "赤",
+      "english": "verge",
+      "japanese": "瀬戸際",
+      "example": {
+        "en": "be on the {verge} of extinction",
+        "ja": "絶滅の{瀬戸際}にいる"
+      },
+      "related": []
+    },
+    {
+      "number": 1860,
+      "type": "赤",
+      "english": "advent",
+      "japanese": "出現",
+      "example": {
+        "en": "the {advent} of the Internet",
+        "ja": "インターネットの{出現}"
+      },
+      "related": []
+    },
+    {
+      "number": 1861,
+      "type": "赤",
+      "english": "analogy",
+      "japanese": "類似点；類推、(似たものによる)たとえ",
+      "example": {
+        "en": "an {analogy} between the heart and a pump",
+        "ja": "心臓とポンプの{類似点}"
+      },
+      "related": []
+    },
+    {
+      "number": 1862,
+      "type": "赤",
+      "english": "irrigation",
+      "japanese": "かんがい",
+      "example": {
+        "en": "{irrigation} systems",
+        "ja": "{かんがい}システム"
+      },
+      "related": []
+    },
+    {
+      "number": 1863,
+      "type": "赤",
+      "english": "coverage",
+      "japanese": "報道；放送",
+      "example": {
+        "en": "media {coverage} of the accident",
+        "ja": "メディアによるその事故の{報道}"
+      },
+      "related": []
+    },
+    {
+      "number": 1864,
+      "type": "赤",
+      "english": "cuisine",
+      "japanese": "料理",
+      "example": {
+        "en": "traditional French {cuisine}",
+        "ja": "伝統的なフランス{料理}"
+      },
+      "related": []
+    },
+    {
+      "number": 1865,
+      "type": "赤",
+      "english": "menace",
+      "japanese": "脅威",
+      "example": {
+        "en": "a {menace} to world peace",
+        "ja": "世界平和に対する{脅威}"
+      },
+      "related": []
+    },
+    {
+      "number": 1866,
+      "type": "赤",
+      "english": "peril",
+      "japanese": "危険",
+      "example": {
+        "en": "the {peril}s of the road",
+        "ja": "道路の{危険}"
+      },
+      "related": []
+    },
+    {
+      "number": 1867,
+      "type": "赤",
+      "english": "limb",
+      "japanese": "手足",
+      "example": {
+        "en": "have long {limb}s",
+        "ja": "{手足}が長い"
+      },
+      "related": []
+    },
+    {
+      "number": 1868,
+      "type": "赤",
+      "english": "assault",
+      "japanese": "攻撃；暴行",
+      "example": {
+        "en": "{assault} on the enemy's base",
+        "ja": "敵基地への{攻撃}"
+      },
+      "related": []
+    },
+    {
+      "number": 1869,
+      "type": "赤",
+      "english": "hatred",
+      "japanese": "憎しみ",
+      "example": {
+        "en": "{hatred} of war",
+        "ja": "戦争に対する{憎しみ}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "hate",
+          "part_of_speech": "動詞・名詞",
+          "japanese": "～を憎む、嫌う；憎しみ"
+        }
+      ]
+    },
+    {
+      "number": 1870,
+      "type": "赤",
+      "english": "autonomy",
+      "japanese": "自主性；自律",
+      "example": {
+        "en": "patient {autonomy}",
+        "ja": "患者の{自主性}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "autonomous",
+          "part_of_speech": "形容詞",
+          "japanese": "自動運転の、自立した、自律の"
+        }
+      ]
+    },
+    {
+      "number": 1871,
+      "type": "赤",
+      "english": "cram",
+      "japanese": "塾；詰めこみ勉強",
+      "example": {
+        "en": "go to {cram} school",
+        "ja": "{塾}に通う"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "cram",
+          "part_of_speech": "動詞",
+          "japanese": "(～を)詰めこむ、丸暗記する"
+        }
+      ]
+    },
+    {
+      "number": 1872,
+      "type": "赤",
+      "english": "subsidy",
+      "japanese": "補助金",
+      "example": {
+        "en": "a government {subsidy}",
+        "ja": "政府の{補助金}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "subsidize",
+          "part_of_speech": "動詞",
+          "japanese": "～に補助金を出す"
+        },
+        {
+          "type": "◇",
+          "english": "subsidiary",
+          "part_of_speech": "形容詞・名詞",
+          "japanese": "補助的な；子会社"
+        }
+      ]
+    },
+    {
+      "number": 1873,
+      "type": "赤",
+      "english": "empathy",
+      "japanese": "共感；感情移入",
+      "example": {
+        "en": "{empathy} for others",
+        "ja": "他者への{共感}"
+      },
+      "related": []
+    },
+    {
+      "number": 1874,
+      "type": "赤",
+      "english": "slang",
+      "japanese": "俗語",
+      "example": {
+        "en": "{slang} expressions",
+        "ja": "{俗語}表現"
+      },
+      "related": []
+    },
+    {
+      "number": 1875,
+      "type": "赤",
+      "english": "posture",
+      "japanese": "姿勢",
+      "example": {
+        "en": "maintain good {posture}",
+        "ja": "よい{姿勢}を保つ"
+      },
+      "related": []
+    },
+    {
+      "number": 1876,
+      "type": "赤",
+      "english": "ideology",
+      "japanese": "イデオロギー；(政治・経済的な)思想",
+      "example": {
+        "en": "a political {ideology}",
+        "ja": "政治的な{イデオロギー}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "ideological",
+          "part_of_speech": "形容詞",
+          "japanese": "イデオロギー的な"
+        }
+      ]
+    },
+    {
+      "number": 1877,
+      "type": "赤",
+      "english": "curse",
+      "japanese": "災いのもと；呪い、ののしり；～を呪う",
+      "example": {
+        "en": "Wealth can be a {curse}.",
+        "ja": "富は{災いのもと}になりうる"
+      },
+      "related": [
+        {
+          "type": "⇔",
+          "english": "blessing",
+          "part_of_speech": "名詞",
+          "japanese": "ありがたいもの、恵み；祝福"
+        }
+      ]
+    },
+    {
+      "number": 1878,
+      "type": "赤",
+      "english": "tumor",
+      "japanese": "腫瘍；はれた部分",
+      "example": {
+        "en": "have a brain {tumor}",
+        "ja": "脳{腫瘍}がある"
+      },
+      "related": []
+    },
+    {
+      "number": 1879,
+      "type": "赤",
+      "english": "intersection",
+      "japanese": "交差点",
+      "example": {
+        "en": "turn right at the {intersection}",
+        "ja": "{交差点}で右に曲がる"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "crossroads",
+          "part_of_speech": "名詞",
+          "japanese": "交差点"
+        }
+      ]
+    },
+    {
+      "number": 1880,
+      "type": "赤",
+      "english": "duration",
+      "japanese": "期間；継続期間",
+      "example": {
+        "en": "the {duration} of the contract",
+        "ja": "契約の{期間}"
+      },
+      "related": []
+    },
+    {
+      "number": 1881,
+      "type": "赤",
+      "english": "deforestation",
+      "japanese": "森林破壊",
+      "example": {
+        "en": "{deforestation} in the Amazon",
+        "ja": "アマゾンの{森林破壊}"
+      },
+      "related": []
+    },
+    {
+      "number": 1882,
+      "type": "赤",
+      "english": "precaution",
+      "japanese": "用心；警戒",
+      "example": {
+        "en": "take {precaution}s against fires",
+        "ja": "火事に{用心}する"
+      },
+      "related": []
+    },
+    {
+      "number": 1883,
+      "type": "赤",
+      "english": "bunch",
+      "japanese": "ひとたば",
+      "example": {
+        "en": "a {bunch} of flowers",
+        "ja": "{ひとたば}の花"
+      },
+      "related": []
+    },
+    {
+      "number": 1884,
+      "type": "赤",
+      "english": "shortcoming",
+      "japanese": "欠点",
+      "example": {
+        "en": "put up with her {shortcoming}s",
+        "ja": "彼女の{欠点}を我慢する"
+      },
+      "related": []
+    },
+    {
+      "number": 1885,
+      "type": "赤",
+      "english": "aspiration",
+      "japanese": "熱望",
+      "example": {
+        "en": "{aspiration}s to be an artist",
+        "ja": "芸術家になりたいという{熱望}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "aspire",
+          "part_of_speech": "動詞",
+          "japanese": "熱望する"
+        },
+        {
+          "type": "=",
+          "english": "ambition",
+          "part_of_speech": "名詞",
+          "japanese": "熱望"
+        }
+      ]
+    },
+    {
+      "number": 1886,
+      "type": "赤",
+      "english": "psychiatrist",
+      "japanese": "精神科医",
+      "example": {
+        "en": "psychologists and {psychiatrist}s",
+        "ja": "心理学者と{精神科医}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "psychiatric",
+          "part_of_speech": "形容詞",
+          "japanese": "精神医学の"
+        }
+      ]
+    },
+    {
+      "number": 1887,
+      "type": "赤",
+      "english": "shipping",
+      "japanese": "発送；輸送費",
+      "example": {
+        "en": "packaging and {shipping}",
+        "ja": "包装と{発送}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "ship",
+          "part_of_speech": "動詞",
+          "japanese": "～を送る、輸送する"
+        },
+        {
+          "type": "◇",
+          "english": "shipment",
+          "part_of_speech": "名詞",
+          "japanese": "発送、積み荷"
+        }
+      ]
+    },
+    {
+      "number": 1888,
+      "type": "赤",
+      "english": "Senator",
+      "japanese": "上院議員",
+      "example": {
+        "en": "a United States {Senator}",
+        "ja": "合衆国{上院議員}"
+      },
+      "related": []
+    },
+    {
+      "number": 1889,
+      "type": "赤",
+      "english": "statesman",
+      "japanese": "政治家",
+      "example": {
+        "en": "an international {statesman}",
+        "ja": "国際的な{政治家}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "politician",
+          "part_of_speech": "名詞",
+          "japanese": "政治家"
+        }
+      ]
+    },
+    {
+      "number": 1890,
+      "type": "赤",
+      "english": "subordinate",
+      "japanese": "部下；副次的な、下級の",
+      "example": {
+        "en": "instruct a {subordinate}",
+        "ja": "{部下}に指示する"
+      },
+      "related": []
+    },
+    {
+      "number": 1891,
+      "type": "赤",
+      "english": "vacuum",
+      "japanese": "空白；真空",
+      "example": {
+        "en": "fill a {vacuum}",
+        "ja": "{空白}を埋める"
+      },
+      "related": []
+    },
+    {
+      "number": 1892,
+      "type": "赤",
+      "english": "quest",
+      "japanese": "探究",
+      "example": {
+        "en": "the {quest} for the truth",
+        "ja": "真理の{探究}"
+      },
+      "related": []
+    },
+    {
+      "number": 1893,
+      "type": "赤",
+      "english": "meditation",
+      "japanese": "瞑想；熟慮、内省",
+      "example": {
+        "en": "Buddhist {meditation}",
+        "ja": "仏教の{瞑想}"
+      },
+      "related": []
+    },
+    {
+      "number": 1894,
+      "type": "赤",
+      "english": "subscriber",
+      "japanese": "加入者；(雑誌などの)定期購読者",
+      "example": {
+        "en": "{subscriber}s to the service",
+        "ja": "その事業の{加入者}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "subscribe",
+          "part_of_speech": "動詞",
+          "japanese": "～を定期購読する、～に同意する"
+        }
+      ]
+    },
+    {
+      "number": 1895,
+      "type": "赤",
+      "english": "riddle",
+      "japanese": "なぞ",
+      "example": {
+        "en": "solve a {riddle}",
+        "ja": "{なぞ}を解く"
+      },
+      "related": []
+    },
+    {
+      "number": 1896,
+      "type": "赤",
+      "english": "rag",
+      "japanese": "ぼろ；ぼろ切れ",
+      "example": {
+        "en": "be dressed in {rag}s",
+        "ja": "{ぼろ}を着ている"
+      },
+      "related": []
+    },
+    {
+      "number": 1897,
+      "type": "赤",
+      "english": "rust",
+      "japanese": "さび",
+      "example": {
+        "en": "be covered with {rust}",
+        "ja": "{さび}で覆われる"
+      },
+      "related": []
+    },
+    {
+      "number": 1898,
+      "type": "赤",
+      "english": "sanitation",
+      "japanese": "衛生；下水設備",
+      "example": {
+        "en": "public {sanitation}",
+        "ja": "公衆{衛生}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "sanitary",
+          "part_of_speech": "形容詞",
+          "japanese": "衛生の、衛生的な"
+        }
+      ]
+    },
+    {
+      "number": 1899,
+      "type": "赤",
+      "english": "midst",
+      "japanese": "まっただ中",
+      "example": {
+        "en": "in the {midst} of the lecture",
+        "ja": "授業の{まっただ中}に"
+      },
+      "related": []
+    },
+    {
+      "number": 1900,
+      "type": "赤",
+      "english": "mischief",
+      "japanese": "いたずら",
+      "example": {
+        "en": "childhood {mischief}",
+        "ja": "子供時代の{いたずら}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "mischievous",
+          "part_of_speech": "形容詞",
+          "japanese": "いたずら好きの"
+        }
+      ]
     }
   ]
 }
