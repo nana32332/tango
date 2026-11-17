@@ -166,6 +166,16 @@
   .rel-q-base { color: var(--muted); font-size: .9rem; margin-bottom: 10px; }
   .rel-q-base b { color: var(--text); }
   .rel-q-pos { display: inline-block; margin-bottom: 6px; }
+  /* スマホでは予測変換を出させないため password 欄にし、●の代わりに入力した文字を上に重ねて見せる */
+  .type-field { position: relative; flex: 1; min-width: 0; display: flex; }
+  .type-field input.masked { color: transparent; caret-color: transparent; }
+  .type-field input.masked::placeholder { color: var(--muted); }
+  .type-mirror {
+    position: absolute; inset: 0; padding: 0 13px; display: flex; align-items: center;
+    font-size: 1.1rem; white-space: pre; overflow: hidden; pointer-events: none;
+  }
+  .type-mirror .caret { display: inline-block; width: 2px; height: 1.2em; margin-left: 1px; background: var(--text); animation: caret-blink 1s steps(1) infinite; }
+  @keyframes caret-blink { 50% { opacity: 0; } }
   .hint { color: var(--muted); font-size: .9rem; margin-top: 8px; font-family: ui-monospace, Consolas, monospace; letter-spacing: .15em; }
   .feedback { margin-top: 14px; padding: 10px 12px; border-radius: 10px; font-weight: 600; }
   .feedback.ok { background: var(--ok-soft); color: var(--ok); }
@@ -304,6 +314,11 @@
     }
     return b;
   };
+  // スマホのキーボード（Gboard など）は通常の入力欄だと予測変換で答えを出してしまう。
+  // パスワード欄には予測を出さないので、タッチ操作の端末では見た目はそのままにパスワード欄として扱う
+  const NO_SUGGEST = (() => {
+    try { return matchMedia('(pointer: coarse)').matches; } catch (e) { return false; }
+  })();
   const norm = (s) => s.toLowerCase().replace(/[’']/g, "'").replace(/\s+/g, ' ').trim();
 
   function speak(text) {
@@ -612,7 +627,10 @@
           <div class="hint" id="hint" style="visibility:hidden">${esc(hint)}</div>
         </div>
         <form class="type-row" id="typeForm" autocomplete="off">
-          <input type="text" id="typeInput" placeholder="英語でつづりを入力" autocapitalize="off" spellcheck="false">
+          ${NO_SUGGEST ? `<div class="type-field">
+            <input type="password" id="typeInput" class="masked" placeholder="英語でつづりを入力" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore>
+            <div class="type-mirror" id="typeMirror" aria-hidden="true"></div>
+          </div>` : `<input type="text" id="typeInput" placeholder="英語でつづりを入力" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">`}
           <button class="btn primary small" type="submit" style="padding:10px 16px">答える</button>
         </form>
         <div class="actions" style="margin-top:10px">
@@ -622,6 +640,15 @@
         <div id="typeFeedback"></div>
       </div>`;
     const input = $('#typeInput');
+    const mirror = $('#typeMirror');
+    if (mirror) {
+      const sync = () => {
+        const caret = document.activeElement === input && !input.readOnly ? '<span class="caret"></span>' : '';
+        mirror.innerHTML = esc(input.value) + caret;
+      };
+      ['input', 'focus', 'blur'].forEach((ev) => input.addEventListener(ev, sync));
+      sync();
+    }
     input.focus();
     $('#hintBtn').onclick = () => { $('#hint').style.visibility = 'visible'; input.focus(); };
     $('#skipBtn').onclick = () => typeAnswer(null);
@@ -646,6 +673,7 @@
     saveSession();
     const input = $('#typeInput');
     input.readOnly = true;
+    if ($('#typeMirror')) $('#typeMirror').textContent = input.value;
     $('#hintBtn').disabled = true;
     $('#skipBtn').disabled = true;
     $('#typeFeedback').innerHTML = `
