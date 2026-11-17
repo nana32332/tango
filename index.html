@@ -616,9 +616,8 @@
     const question = w.rel ? `
           <div class="rel-q-base">No.${w.number}　<b>${esc(w.base.english)}</b>　${esc(w.base.japanese)}</div>
           <div class="rel-q-pos"><span class="rel-mark">${esc(w.rel.type)}</span> <span class="rel-pos">${esc(w.rel.part_of_speech)}</span></div>
-          <div class="prompt ja">${esc(w.japanese)}</div>` : `
-          <div class="prompt ja">${esc(w.japanese)}</div>
-          ${exampleHTML(w, 'ja')}`;
+          <div class="prompt ja">${esc(w.japanese)}</div>` : w.example ? examplePromptHTML(w, false) : `
+          <div class="prompt ja">${esc(w.japanese)}</div>`;
     app.innerHTML = `
       ${progressBar(session.i, session.list.length)}
       <div class="meta"><span>${w.rel ? `関連語 ${w.k + 1} / ${w.total}` : `No.${w.number}`}</span><span>${session.i + 1} / ${session.list.length}　正解 ${session.correct}</span></div>
