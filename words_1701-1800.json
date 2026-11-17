@@ -1,0 +1,1457 @@
+{
+  "source": "MINIMAL PHRASES Stage 4 (1) 動詞・(2) 名詞 p.282-293",
+  "range": [
+    1701,
+    1800
+  ],
+  "entries": [
+    {
+      "number": 1701,
+      "type": "赤",
+      "english": "clarify",
+      "japanese": "明らかにする",
+      "example": {
+        "en": "{clarify} the meaning of the word",
+        "ja": "単語の意味{を明らかにする}"
+      },
+      "related": []
+    },
+    {
+      "number": 1702,
+      "type": "赤",
+      "english": "smash",
+      "japanese": "粉々に砕く；衝突する、～を衝突させる",
+      "example": {
+        "en": "{smash} a bottle",
+        "ja": "ビン{を粉々に砕く}"
+      },
+      "related": []
+    },
+    {
+      "number": 1703,
+      "type": "赤",
+      "english": "mourn",
+      "japanese": "悲しむ；(人)の喪に服する",
+      "example": {
+        "en": "{mourn} Gandhi's death",
+        "ja": "ガンジーの死{を悲しむ}"
+      },
+      "related": []
+    },
+    {
+      "number": 1704,
+      "type": "赤",
+      "english": "summon",
+      "japanese": "呼ぶ；(人)を呼び出す",
+      "example": {
+        "en": "{summon} the police",
+        "ja": "警察{を呼ぶ}"
+      },
+      "related": []
+    },
+    {
+      "number": 1705,
+      "type": "赤",
+      "english": "shatter",
+      "japanese": "粉々にする；粉々になる",
+      "example": {
+        "en": "{shatter} windows",
+        "ja": "窓{を粉々にする}"
+      },
+      "related": []
+    },
+    {
+      "number": 1706,
+      "type": "赤",
+      "english": "linger",
+      "japanese": "残る；(感情などが)なかなか消えない",
+      "example": {
+        "en": "{linger} in my memory",
+        "ja": "私の記憶に{残る}"
+      },
+      "related": []
+    },
+    {
+      "number": 1707,
+      "type": "赤",
+      "english": "lament",
+      "japanese": "嘆く；悲しみ、嘆きの言葉",
+      "example": {
+        "en": "{lament} the shortness of life",
+        "ja": "人生の短さ{を嘆く}"
+      },
+      "related": []
+    },
+    {
+      "number": 1708,
+      "type": "赤",
+      "english": "endowed",
+      "japanese": "恵まれる；～を授ける",
+      "example": {
+        "en": "be {endowed} with a talent",
+        "ja": "才能{に恵まれる}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "endowment",
+          "part_of_speech": "名詞",
+          "japanese": "寄付金；才能"
+        }
+      ]
+    },
+    {
+      "number": 1709,
+      "type": "赤",
+      "english": "rejoice",
+      "japanese": "喜ぶ",
+      "example": {
+        "en": "{rejoice} in the success",
+        "ja": "成功を{喜ぶ}"
+      },
+      "related": []
+    },
+    {
+      "number": 1710,
+      "type": "赤",
+      "english": "allocate",
+      "japanese": "配分する；～を割り当てる",
+      "example": {
+        "en": "{allocate} resources",
+        "ja": "資源{を配分する}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "allocation",
+          "part_of_speech": "名詞",
+          "japanese": "配分、割り当て(量)"
+        }
+      ]
+    },
+    {
+      "number": 1711,
+      "type": "赤",
+      "english": "slap",
+      "japanese": "ピシャリと打つ；平手打ち",
+      "example": {
+        "en": "{slap} his face",
+        "ja": "彼の顔{をピシャリと打つ}"
+      },
+      "related": []
+    },
+    {
+      "number": 1712,
+      "type": "赤",
+      "english": "contend",
+      "japanese": "主張する；戦う",
+      "example": {
+        "en": "{contend} that money cannot buy happiness",
+        "ja": "お金で幸福は買えない{と主張する}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "argue",
+          "part_of_speech": "動詞",
+          "japanese": "主張する"
+        }
+      ]
+    },
+    {
+      "number": 1713,
+      "type": "赤",
+      "english": "swear",
+      "japanese": "誓う；～と断言する",
+      "example": {
+        "en": "{swear} never to drink again",
+        "ja": "二度と酒を飲まない{と誓う}"
+      },
+      "related": []
+    },
+    {
+      "number": 1714,
+      "type": "赤",
+      "english": "discern",
+      "japanese": "識別する",
+      "example": {
+        "en": "can {discern} the difference",
+        "ja": "違い{を識別する}ことができる"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "distinguish",
+          "part_of_speech": "動詞",
+          "japanese": "識別する"
+        },
+        {
+          "type": "=",
+          "english": "perceive",
+          "part_of_speech": "動詞",
+          "japanese": "識別する"
+        }
+      ]
+    },
+    {
+      "number": 1715,
+      "type": "赤",
+      "english": "degrade",
+      "japanese": "悪化させる",
+      "example": {
+        "en": "{degrade} the environment",
+        "ja": "環境{を悪化させる}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "degradation",
+          "part_of_speech": "名詞",
+          "japanese": "(環境などの)悪化；卑しめ"
+        }
+      ]
+    },
+    {
+      "number": 1716,
+      "type": "赤",
+      "english": "erect",
+      "japanese": "築く；直立した",
+      "example": {
+        "en": "{erect} barriers",
+        "ja": "障壁{を築く}"
+      },
+      "related": []
+    },
+    {
+      "number": 1717,
+      "type": "赤",
+      "english": "testify",
+      "japanese": "証言する",
+      "example": {
+        "en": "{testify} in court",
+        "ja": "法廷で{証言する}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "testimony",
+          "part_of_speech": "名詞",
+          "japanese": "証言、証拠"
+        }
+      ]
+    },
+    {
+      "number": 1718,
+      "type": "赤",
+      "english": "spur",
+      "japanese": "駆りたてる；～に拍車をかける；刺激、拍車",
+      "example": {
+        "en": "{spur} him into action",
+        "ja": "行動へと彼{を駆りたてる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1719,
+      "type": "赤",
+      "english": "roam",
+      "japanese": "歩き回る；ぶらつく、放浪する",
+      "example": {
+        "en": "{roam} the streets freely",
+        "ja": "自由に街{を歩き回る}"
+      },
+      "related": []
+    },
+    {
+      "number": 1720,
+      "type": "赤",
+      "english": "frown",
+      "japanese": "まゆをひそめる；しかめっ面",
+      "example": {
+        "en": "{frown} on smoking",
+        "ja": "喫煙に{まゆをひそめる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1721,
+      "type": "赤",
+      "english": "lure",
+      "japanese": "呼び込む；～を魅惑する；魅力、魅惑",
+      "example": {
+        "en": "{lure} tourists to Japan",
+        "ja": "日本に観光客{を呼び込む}"
+      },
+      "related": []
+    },
+    {
+      "number": 1722,
+      "type": "赤",
+      "english": "defy",
+      "japanese": "逆らう；(規則など)に従わない；～を拒む",
+      "example": {
+        "en": "{defy} gravity",
+        "ja": "重力{に逆らう}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "defiance",
+          "part_of_speech": "名詞",
+          "japanese": "反抗、抵抗"
+        }
+      ]
+    },
+    {
+      "number": 1723,
+      "type": "赤",
+      "english": "stroll",
+      "japanese": "ぶらつく；散歩",
+      "example": {
+        "en": "{stroll} in the park",
+        "ja": "公園を{ぶらつく}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "wander",
+          "part_of_speech": "動詞",
+          "japanese": "ぶらつく"
+        }
+      ]
+    },
+    {
+      "number": 1724,
+      "type": "赤",
+      "english": "rattle",
+      "japanese": "がたがた鳴らす",
+      "example": {
+        "en": "{rattle} the windows",
+        "ja": "窓{をがたがた鳴らす}"
+      },
+      "related": []
+    },
+    {
+      "number": 1725,
+      "type": "赤",
+      "english": "reconcile",
+      "japanese": "調和させる；～を和解させる",
+      "example": {
+        "en": "{reconcile} religion with science",
+        "ja": "宗教と科学{を調和させる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1726,
+      "type": "赤",
+      "english": "blur",
+      "japanese": "ぼやかす；ぼやける；ぼやけたもの",
+      "example": {
+        "en": "{blur} the distinction",
+        "ja": "区別{をぼやかす}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "blurred",
+          "part_of_speech": "形容詞",
+          "japanese": "ぼやけた"
+        }
+      ]
+    },
+    {
+      "number": 1727,
+      "type": "赤",
+      "english": "soothe",
+      "japanese": "なだめる；(苦痛)を和らげる",
+      "example": {
+        "en": "{soothe} a crying child",
+        "ja": "泣く子供{をなだめる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1728,
+      "type": "赤",
+      "english": "impair",
+      "japanese": "低下させる；～を害する",
+      "example": {
+        "en": "{impair} learning ability",
+        "ja": "学習能力{を低下させる}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "damage",
+          "part_of_speech": "動詞",
+          "japanese": "～を害する"
+        }
+      ]
+    },
+    {
+      "number": 1729,
+      "type": "赤",
+      "english": "comply",
+      "japanese": "従う",
+      "example": {
+        "en": "{comply} with the standards",
+        "ja": "基準に{従う}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "compliance",
+          "part_of_speech": "名詞",
+          "japanese": "法令遵守、(命令などに)従うこと"
+        }
+      ]
+    },
+    {
+      "number": 1730,
+      "type": "赤",
+      "english": "pierce",
+      "japanese": "穴をあける；～を刺す",
+      "example": {
+        "en": "{pierce} my ears",
+        "ja": "耳{に穴をあける}"
+      },
+      "related": []
+    },
+    {
+      "number": 1731,
+      "type": "赤",
+      "english": "stumble",
+      "japanese": "つまずく",
+      "example": {
+        "en": "{stumble} on the stairs",
+        "ja": "階段で{つまずく}"
+      },
+      "related": []
+    },
+    {
+      "number": 1732,
+      "type": "赤",
+      "english": "hinder",
+      "japanese": "さまたげる",
+      "example": {
+        "en": "{hinder} economic development",
+        "ja": "経済の発展{をさまたげる}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "prevent",
+          "part_of_speech": "動詞",
+          "japanese": "さまたげる"
+        }
+      ]
+    },
+    {
+      "number": 1733,
+      "type": "赤",
+      "english": "mock",
+      "japanese": "あざける；まねごとの、模擬の",
+      "example": {
+        "en": "{mock} her efforts",
+        "ja": "彼女の努力{をあざける}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "make fun of",
+          "part_of_speech": "動詞",
+          "japanese": "あざける"
+        }
+      ]
+    },
+    {
+      "number": 1734,
+      "type": "赤",
+      "english": "embody",
+      "japanese": "具現する；～を表現する",
+      "example": {
+        "en": "{embody} the spirit of the age",
+        "ja": "時代の精神{を具現する}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "express",
+          "part_of_speech": "動詞",
+          "japanese": "～を表現する"
+        }
+      ]
+    },
+    {
+      "number": 1735,
+      "type": "赤",
+      "english": "stalk",
+      "japanese": "忍び寄る；(植物の)茎",
+      "example": {
+        "en": "{stalk} the prey",
+        "ja": "獲物{に忍び寄る}"
+      },
+      "related": []
+    },
+    {
+      "number": 1736,
+      "type": "赤",
+      "english": "proclaim",
+      "japanese": "宣言する；～をはっきり示す",
+      "example": {
+        "en": "{proclaim} that Japan is safe",
+        "ja": "日本は安全だ{と宣言する}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "declare",
+          "part_of_speech": "動詞",
+          "japanese": "宣言する"
+        }
+      ]
+    },
+    {
+      "number": 1737,
+      "type": "赤",
+      "english": "applaud",
+      "japanese": "拍手する；～をほめたたえる",
+      "example": {
+        "en": "The audience {applaud}s.",
+        "ja": "観客が{拍手する}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "applause",
+          "part_of_speech": "名詞",
+          "japanese": "拍手"
+        }
+      ]
+    },
+    {
+      "number": 1738,
+      "type": "赤",
+      "english": "inflict",
+      "japanese": "与える",
+      "example": {
+        "en": "{inflict} pain on other people",
+        "ja": "人に苦痛{を与える}"
+      },
+      "related": []
+    },
+    {
+      "number": 1739,
+      "type": "赤",
+      "english": "merge",
+      "japanese": "合併する",
+      "example": {
+        "en": "{merge} with the company",
+        "ja": "その会社と{合併する}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "merger",
+          "part_of_speech": "名詞",
+          "japanese": "合併、合同"
+        }
+      ]
+    },
+    {
+      "number": 1740,
+      "type": "赤",
+      "english": "evacuated",
+      "japanese": "避難した；～を避難させる",
+      "example": {
+        "en": "People were {evacuated} from the area.",
+        "ja": "人々はその地域から{避難した}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "evacuation",
+          "part_of_speech": "名詞",
+          "japanese": "避難"
+        }
+      ]
+    },
+    {
+      "number": 1741,
+      "type": "赤",
+      "english": "undone",
+      "japanese": "元に戻ら(ない)",
+      "example": {
+        "en": "What is done cannot be {undone}.",
+        "ja": "一度したことは{元に戻ら}ない"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "undo",
+          "part_of_speech": "動詞",
+          "japanese": "(一度したこと)を元に戻す、～を無効にする"
+        }
+      ]
+    },
+    {
+      "number": 1742,
+      "type": "赤",
+      "english": "poke",
+      "japanese": "突く；(～を)つつく",
+      "example": {
+        "en": "{poke} him in the ribs",
+        "ja": "彼のわき腹{を突く}"
+      },
+      "related": []
+    },
+    {
+      "number": 1743,
+      "type": "赤",
+      "english": "haunted",
+      "japanese": "つきまとわれる；～につきまとう",
+      "example": {
+        "en": "be {haunted} by memories of war",
+        "ja": "戦争の記憶に{つきまとわれる}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "haunted",
+          "part_of_speech": "形容詞",
+          "japanese": "(場所が)幽霊の出る"
+        }
+      ]
+    },
+    {
+      "number": 1744,
+      "type": "赤",
+      "english": "adhere",
+      "japanese": "固く守る",
+      "example": {
+        "en": "{adhere} to the international standards",
+        "ja": "国際基準を{固く守る}"
+      },
+      "related": []
+    },
+    {
+      "number": 1745,
+      "type": "赤",
+      "english": "compile",
+      "japanese": "まとめる；(データ・辞書など)を編集する",
+      "example": {
+        "en": "{compile} a list of customers",
+        "ja": "顧客のリスト{をまとめる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1746,
+      "type": "赤",
+      "english": "wither",
+      "japanese": "しぼむ；色あせる；～をしおれさせる",
+      "example": {
+        "en": "The flowers will {wither} in the cold.",
+        "ja": "花は寒さで{しぼむ}だろう"
+      },
+      "related": []
+    },
+    {
+      "number": 1747,
+      "type": "赤",
+      "english": "stun",
+      "japanese": "びっくりさせる；～を気絶させる",
+      "example": {
+        "en": "{stun} the audience",
+        "ja": "聴衆{をびっくりさせる}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "stunning",
+          "part_of_speech": "形容詞",
+          "japanese": "美しい、すばらしい；驚くべき"
+        },
+        {
+          "type": "◇",
+          "english": "stunned",
+          "part_of_speech": "形容詞",
+          "japanese": "びっくりした；動転した"
+        }
+      ]
+    },
+    {
+      "number": 1748,
+      "type": "赤",
+      "english": "choke",
+      "japanese": "のどがつまる；～の首をしめる",
+      "example": {
+        "en": "{choke} on a piece of food",
+        "ja": "食べ物で{のどがつまる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1749,
+      "type": "赤",
+      "english": "deteriorate",
+      "japanese": "悪化する；～を悪化させる",
+      "example": {
+        "en": "His health will {deteriorate}.",
+        "ja": "彼の健康状態は{悪化する}だろう"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "deterioration",
+          "part_of_speech": "名詞",
+          "japanese": "悪化"
+        },
+        {
+          "type": "=",
+          "english": "worsen",
+          "part_of_speech": "動詞",
+          "japanese": "～を悪化させる"
+        }
+      ]
+    },
+    {
+      "number": 1750,
+      "type": "赤",
+      "english": "dump",
+      "japanese": "捨てる；ゴミ捨て場",
+      "example": {
+        "en": "{dump} garbage in the street",
+        "ja": "通りにゴミ{を捨てる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1751,
+      "type": "赤",
+      "english": "murmur",
+      "japanese": "つぶやく；つぶやき；ざわめき",
+      "example": {
+        "en": "{murmur} in a low voice",
+        "ja": "低い声で{つぶやく}"
+      },
+      "related": []
+    },
+    {
+      "number": 1752,
+      "type": "赤",
+      "english": "delete",
+      "japanese": "削除する",
+      "example": {
+        "en": "{delete} old emails",
+        "ja": "古いeメール{を削除する}"
+      },
+      "related": []
+    },
+    {
+      "number": 1753,
+      "type": "赤",
+      "english": "inhibit",
+      "japanese": "阻害する",
+      "example": {
+        "en": "{inhibit} the growth of bacteria",
+        "ja": "バクテリアの成長{を阻害する}"
+      },
+      "related": []
+    },
+    {
+      "number": 1754,
+      "type": "赤",
+      "english": "divert",
+      "japanese": "そらす",
+      "example": {
+        "en": "{divert} attention from the fact",
+        "ja": "事実から注意{をそらす}"
+      },
+      "related": []
+    },
+    {
+      "number": 1755,
+      "type": "赤",
+      "english": "tame",
+      "japanese": "飼いならす；飼いならされた",
+      "example": {
+        "en": "{tame} wild animals",
+        "ja": "野生動物{を飼いならす}"
+      },
+      "related": []
+    },
+    {
+      "number": 1756,
+      "type": "赤",
+      "english": "reap",
+      "japanese": "手に入れる；～を収穫する",
+      "example": {
+        "en": "{reap} large rewards",
+        "ja": "大きな報酬{を手に入れる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1757,
+      "type": "赤",
+      "english": "affirm",
+      "japanese": "断言する；～と主張する",
+      "example": {
+        "en": "{affirm} that it is true",
+        "ja": "それは本当だ{と断言する}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "assert",
+          "part_of_speech": "動詞",
+          "japanese": "～と主張する"
+        }
+      ]
+    },
+    {
+      "number": 1758,
+      "type": "赤",
+      "english": "immersed",
+      "japanese": "浸る",
+      "example": {
+        "en": "be {immersed} in a different culture",
+        "ja": "異なる文化に{浸る}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "immersion",
+          "part_of_speech": "名詞",
+          "japanese": "没頭、浸ること"
+        },
+        {
+          "type": "=",
+          "english": "immerse oneself in A",
+          "part_of_speech": "動詞",
+          "japanese": "浸る"
+        }
+      ]
+    },
+    {
+      "number": 1759,
+      "type": "赤",
+      "english": "expire",
+      "japanese": "期限が切れる",
+      "example": {
+        "en": "My license {expire}s next month.",
+        "ja": "私の免許は来月に{期限が切れる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1760,
+      "type": "赤",
+      "english": "embark",
+      "japanese": "乗り出す；(事業などを)始める",
+      "example": {
+        "en": "{embark} on a new adventure",
+        "ja": "新しい冒険に{乗り出す}"
+      },
+      "related": []
+    },
+    {
+      "number": 1761,
+      "type": "赤",
+      "english": "vow",
+      "japanese": "誓う；誓い、誓約",
+      "example": {
+        "en": "{vow} to fight",
+        "ja": "戦うこと{を誓う}"
+      },
+      "related": []
+    },
+    {
+      "number": 1762,
+      "type": "赤",
+      "english": "foresee",
+      "japanese": "予知する；予見する",
+      "example": {
+        "en": "{foresee} the future",
+        "ja": "未来{を予知する}"
+      },
+      "related": []
+    },
+    {
+      "number": 1763,
+      "type": "赤",
+      "english": "adore",
+      "japanese": "崇拝する；～が大好きだ",
+      "example": {
+        "en": "{adore} him as a god",
+        "ja": "神として彼{を崇拝する}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "love",
+          "part_of_speech": "動詞",
+          "japanese": "～が大好きだ"
+        }
+      ]
+    },
+    {
+      "number": 1764,
+      "type": "赤",
+      "english": "yearn",
+      "japanese": "切望する",
+      "example": {
+        "en": "{yearn} for freedom",
+        "ja": "自由{を切望する}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "yearning",
+          "part_of_speech": "名詞",
+          "japanese": "切望、熱望、あこがれ"
+        }
+      ]
+    },
+    {
+      "number": 1765,
+      "type": "赤",
+      "english": "undermine",
+      "japanese": "弱める",
+      "example": {
+        "en": "{undermine} the US position",
+        "ja": "アメリカの立場{を弱める}"
+      },
+      "related": []
+    },
+    {
+      "number": 1766,
+      "type": "赤",
+      "english": "suck",
+      "japanese": "吸う",
+      "example": {
+        "en": "{suck} blood from humans",
+        "ja": "人間の血{を吸う}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "sniff",
+          "part_of_speech": "動詞",
+          "japanese": "(臭い)をかぐ、(空気)を吸う"
+        }
+      ]
+    },
+    {
+      "number": 1767,
+      "type": "赤",
+      "english": "pledge",
+      "japanese": "誓う；誓約、誓い",
+      "example": {
+        "en": "{pledge} to support them",
+        "ja": "彼らを支持すること{を誓う}"
+      },
+      "related": []
+    },
+    {
+      "number": 1768,
+      "type": "赤",
+      "english": "intrude",
+      "japanese": "立ち入る；じゃまする、侵入する",
+      "example": {
+        "en": "{intrude} on his privacy",
+        "ja": "彼のプライバシーに{立ち入る}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "intruder",
+          "part_of_speech": "名詞",
+          "japanese": "侵入者"
+        },
+        {
+          "type": "◇",
+          "english": "intrusion",
+          "part_of_speech": "名詞",
+          "japanese": "侵入"
+        }
+      ]
+    },
+    {
+      "number": 1769,
+      "type": "赤",
+      "english": "sue",
+      "japanese": "訴える",
+      "example": {
+        "en": "{sue} a doctor",
+        "ja": "医者{を訴える}"
+      },
+      "related": []
+    },
+    {
+      "number": 1770,
+      "type": "赤",
+      "english": "distort",
+      "japanese": "歪曲する",
+      "example": {
+        "en": "{distort} the facts",
+        "ja": "事実{を歪曲する}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "distortion",
+          "part_of_speech": "名詞",
+          "japanese": "ゆがみ、歪曲"
+        }
+      ]
+    },
+    {
+      "number": 1771,
+      "type": "赤",
+      "english": "extinguish",
+      "japanese": "消す",
+      "example": {
+        "en": "{extinguish} the fire",
+        "ja": "火{を消す}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "put out",
+          "part_of_speech": "動詞",
+          "japanese": "消す"
+        }
+      ]
+    },
+    {
+      "number": 1772,
+      "type": "赤",
+      "english": "preach",
+      "japanese": "説教する；～を説く",
+      "example": {
+        "en": "{preach} to the crowd",
+        "ja": "群衆に{説教する}"
+      },
+      "related": []
+    },
+    {
+      "number": 1773,
+      "type": "赤",
+      "english": "curb",
+      "japanese": "抑制する；歩道の縁石",
+      "example": {
+        "en": "{curb} population growth",
+        "ja": "人口増加{を抑制する}"
+      },
+      "related": []
+    },
+    {
+      "number": 1774,
+      "type": "赤",
+      "english": "withstand",
+      "japanese": "耐える；～に抵抗する",
+      "example": {
+        "en": "{withstand} high temperatures",
+        "ja": "高温{に耐える}"
+      },
+      "related": []
+    },
+    {
+      "number": 1775,
+      "type": "赤",
+      "english": "dip",
+      "japanese": "ひたす",
+      "example": {
+        "en": "{dip} the meat in the sauce",
+        "ja": "ソースに肉{をひたす}"
+      },
+      "related": []
+    },
+    {
+      "number": 1776,
+      "type": "赤",
+      "english": "recite",
+      "japanese": "暗唱する；～を声に出して言う",
+      "example": {
+        "en": "{recite} poetry",
+        "ja": "詩{を暗唱する}"
+      },
+      "related": []
+    },
+    {
+      "number": 1777,
+      "type": "赤",
+      "english": "thrust",
+      "japanese": "押し込む；押し、突き",
+      "example": {
+        "en": "{thrust} the money into his pocket",
+        "ja": "彼のポケットにお金{を押し込む}"
+      },
+      "related": []
+    },
+    {
+      "number": 1778,
+      "type": "赤",
+      "english": "plead",
+      "japanese": "嘆願する",
+      "example": {
+        "en": "{plead} with her to come back",
+        "ja": "彼女に戻るよう{嘆願する}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "plea",
+          "part_of_speech": "名詞",
+          "japanese": "嘆願；弁解、申し立て"
+        }
+      ]
+    },
+    {
+      "number": 1779,
+      "type": "赤",
+      "english": "humiliate",
+      "japanese": "恥をかかせる；～に屈辱を与える",
+      "example": {
+        "en": "{humiliate} him in front of others",
+        "ja": "人前で彼{に恥をかかせる}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "humiliating",
+          "part_of_speech": "形容詞",
+          "japanese": "屈辱的な"
+        },
+        {
+          "type": "◇",
+          "english": "humiliated",
+          "part_of_speech": "形容詞",
+          "japanese": "屈辱を受けた"
+        }
+      ]
+    },
+    {
+      "number": 1780,
+      "type": "赤",
+      "english": "discharge",
+      "japanese": "放出する；～を解任する",
+      "example": {
+        "en": "{discharge} waste into rivers",
+        "ja": "川に廃水{を放出する}"
+      },
+      "related": []
+    },
+    {
+      "number": 1781,
+      "type": "赤",
+      "english": "condemn",
+      "japanese": "非難する",
+      "example": {
+        "en": "{condemn} his behavior",
+        "ja": "彼の振る舞い{を非難する}"
+      },
+      "related": []
+    },
+    {
+      "number": 1782,
+      "type": "赤",
+      "english": "retrieve",
+      "japanese": "検索する；～を取り戻す",
+      "example": {
+        "en": "{retrieve} information",
+        "ja": "情報{を検索する}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "retrieval",
+          "part_of_speech": "名詞",
+          "japanese": "検索；取り戻すこと"
+        }
+      ]
+    },
+    {
+      "number": 1783,
+      "type": "赤",
+      "english": "shrug",
+      "japanese": "すくめる",
+      "example": {
+        "en": "{shrug} your shoulders",
+        "ja": "肩{をすくめる}"
+      },
+      "related": []
+    },
+    {
+      "number": 1784,
+      "type": "赤",
+      "english": "evoke",
+      "japanese": "呼び起こす；(記憶・感情)を喚起する",
+      "example": {
+        "en": "{evoke} a response",
+        "ja": "反応{を呼び起こす}"
+      },
+      "related": []
+    },
+    {
+      "number": 1785,
+      "type": "赤",
+      "english": "fetch",
+      "japanese": "取ってくる",
+      "example": {
+        "en": "{fetch} water from the river",
+        "ja": "川から水{を取ってくる}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "go and bring",
+          "part_of_speech": "動詞",
+          "japanese": "取ってくる"
+        }
+      ]
+    },
+    {
+      "number": 1786,
+      "type": "赤",
+      "english": "flatter",
+      "japanese": "おせじを言う；～をほめて喜ばせる",
+      "example": {
+        "en": "{flatter} the boss",
+        "ja": "上司{におせじを言う}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "flattery",
+          "part_of_speech": "名詞",
+          "japanese": "おせじ、ほめ言葉"
+        }
+      ]
+    },
+    {
+      "number": 1787,
+      "type": "赤",
+      "english": "prose",
+      "japanese": "散文",
+      "example": {
+        "en": "write {prose} and poetry",
+        "ja": "{散文}と詩を書く"
+      },
+      "related": [
+        {
+          "type": "⇔",
+          "english": "verse",
+          "part_of_speech": "名詞",
+          "japanese": "韻文、詩"
+        }
+      ]
+    },
+    {
+      "number": 1788,
+      "type": "赤",
+      "english": "textile",
+      "japanese": "織物",
+      "example": {
+        "en": "the {textile} industry",
+        "ja": "{織物}工業"
+      },
+      "related": []
+    },
+    {
+      "number": 1789,
+      "type": "赤",
+      "english": "timber",
+      "japanese": "材木；木材、樹木",
+      "example": {
+        "en": "cut {timber}",
+        "ja": "{材木}を切る"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "lumber",
+          "part_of_speech": "名詞",
+          "japanese": "材木"
+        }
+      ]
+    },
+    {
+      "number": 1790,
+      "type": "赤",
+      "english": "masterpiece",
+      "japanese": "傑作",
+      "example": {
+        "en": "{masterpiece}s of French art",
+        "ja": "フランス美術の{傑作}"
+      },
+      "related": []
+    },
+    {
+      "number": 1791,
+      "type": "赤",
+      "english": "riot",
+      "japanese": "暴動；騒動；暴動を起こす",
+      "example": {
+        "en": "an anti-government {riot}",
+        "ja": "反政府の{暴動}"
+      },
+      "related": []
+    },
+    {
+      "number": 1792,
+      "type": "赤",
+      "english": "carriage",
+      "japanese": "車両；馬車、乳母車",
+      "example": {
+        "en": "a train {carriage}",
+        "ja": "列車の{車両}"
+      },
+      "related": []
+    },
+    {
+      "number": 1793,
+      "type": "赤",
+      "english": "apparatus",
+      "japanese": "装置；器具；器官",
+      "example": {
+        "en": "breathing {apparatus}",
+        "ja": "呼吸{装置}"
+      },
+      "related": [
+        {
+          "type": "=",
+          "english": "equipment",
+          "part_of_speech": "名詞",
+          "japanese": "器具"
+        }
+      ]
+    },
+    {
+      "number": 1794,
+      "type": "赤",
+      "english": "fuss",
+      "japanese": "大騒ぎ",
+      "example": {
+        "en": "make a {fuss} about nothing",
+        "ja": "くだらないことに{大騒ぎ}する"
+      },
+      "related": []
+    },
+    {
+      "number": 1795,
+      "type": "赤",
+      "english": "deficiency",
+      "japanese": "欠乏；欠点、欠陥",
+      "example": {
+        "en": "a vitamin {deficiency}",
+        "ja": "ビタミンの{欠乏}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "deficient",
+          "part_of_speech": "形容詞",
+          "japanese": "欠けている、不足している"
+        }
+      ]
+    },
+    {
+      "number": 1796,
+      "type": "赤",
+      "english": "heir",
+      "japanese": "相続人",
+      "example": {
+        "en": "the {heir} to a fortune",
+        "ja": "財産の{相続人}"
+      },
+      "related": []
+    },
+    {
+      "number": 1797,
+      "type": "赤",
+      "english": "equator",
+      "japanese": "赤道",
+      "example": {
+        "en": "a jungle at the {equator}",
+        "ja": "{赤道}直下のジャングル"
+      },
+      "related": []
+    },
+    {
+      "number": 1798,
+      "type": "赤",
+      "english": "petroleum",
+      "japanese": "石油",
+      "example": {
+        "en": "import {petroleum}",
+        "ja": "{石油}を輸入する"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "petrol",
+          "part_of_speech": "名詞",
+          "japanese": "ガソリン"
+        },
+        {
+          "type": "=",
+          "english": "gas",
+          "part_of_speech": "名詞",
+          "japanese": "ガソリン"
+        },
+        {
+          "type": "=",
+          "english": "gasoline",
+          "part_of_speech": "名詞",
+          "japanese": "ガソリン"
+        }
+      ]
+    },
+    {
+      "number": 1799,
+      "type": "赤",
+      "english": "witch",
+      "japanese": "魔女",
+      "example": {
+        "en": "an evil {witch}",
+        "ja": "邪悪な{魔女}"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "witchcraft",
+          "part_of_speech": "名詞",
+          "japanese": "魔法"
+        }
+      ]
+    },
+    {
+      "number": 1800,
+      "type": "赤",
+      "english": "vapor",
+      "japanese": "蒸気；水蒸気",
+      "example": {
+        "en": "Water changes into {vapor}.",
+        "ja": "水が{蒸気}に変わる"
+      },
+      "related": [
+        {
+          "type": "◇",
+          "english": "evaporate",
+          "part_of_speech": "動詞",
+          "japanese": "蒸発する；消える"
+        },
+        {
+          "type": "=",
+          "english": "water vapor",
+          "part_of_speech": "名詞",
+          "japanese": "水蒸気"
+        }
+      ]
+    }
+  ]
+}
